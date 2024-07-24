@@ -27,7 +27,7 @@ export default function Home() {
 						/>
 					</AlbumSquare>
 				</div>
-				<div className="border-t indent-3 w-4/5 py-3 px-3 mt-4 text-md mx-auto leading-6 border-black space-y-2">
+				<div className="border-t indent-3 w-5/6 sm:w-4/5 py-3 sm:px-3 mt-4 text-md mx-auto leading-6 border-black space-y-2">
 					<p>
 						Edenic Past was founded in May 2020 by Nicholas McMaster
 						to explore political and personal themes through a
