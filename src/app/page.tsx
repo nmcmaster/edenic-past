@@ -4,9 +4,9 @@ import AlbumSquare from "./ui/AlbumSquare";
 
 export default function Home() {
 	return (
-		<main className="sm:w-4/5 mx-auto bg-red-700 min-h-screen px-6">
+		<main className="sm:w-4/5 mx-auto bg-red-700 min-h-screen px-3 sm:px-6">
 			<div className="bg-stone-200 min-h-screen">
-				<h1 className="text-center text-6xl sm:text-3xl pt-6 pb-10">Edenic Past</h1>
+				<h1 className="text-center sm:text-6xl text-4xl pt-6 pb-10">Edenic Past</h1>
 				<div className="flex flex-wrap justify-around">
 					<AlbumSquare title="Two-song promo">
 						<Image
