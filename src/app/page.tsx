@@ -36,7 +36,7 @@ export default function Home() {
 						himself, he asked long-time collaborators and friends
 						Colin Marston and Paulo Henri Paguntalan to write and
 						play guitar and vocals, respectively. Marston has also
-						produced, engineered, and mixed every recording. The
+						engineered, mixed, and mastered every recording. The
 						views expressed on this website in exposition of the
 						themes for Edenic Past's songs should be taken as
 						McMaster's views alone, not necessarily speaking for the
