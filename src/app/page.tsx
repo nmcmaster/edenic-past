@@ -6,7 +6,9 @@ export default function Home() {
 	return (
 		<main className="sm:w-4/5 mx-auto bg-red-700 min-h-screen px-3 sm:px-6">
 			<div className="bg-stone-200 min-h-screen">
-				<h1 className="text-center sm:text-6xl text-4xl pt-6 pb-10">Edenic Past</h1>
+				<h1 className="text-center sm:text-6xl text-4xl pt-6 pb-10">
+					Edenic Past
+				</h1>
 				<div className="flex flex-wrap justify-around">
 					<AlbumSquare title="Two-song promo">
 						<Image
@@ -27,7 +29,7 @@ export default function Home() {
 						/>
 					</AlbumSquare>
 				</div>
-				<div className="border-t indent-3 w-5/6 sm:w-4/5 py-3 sm:px-3 mt-4 text-md mx-auto leading-6 border-black space-y-2">
+				<div className="border-t indent-3 w-5/6 sm:w-4/5 py-3 sm:px-3 sm:mt-4 mt-1 text-md mx-auto leading-6 border-black space-y-2">
 					<p>
 						Edenic Past was founded in May 2020 by Nicholas McMaster
 						to explore political and personal themes through a
