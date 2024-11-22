@@ -11,6 +11,7 @@ export default function RedAmarcordLayout({
 	return (
 		<div className="text-center mb-5">
 			<h1 className="mb-3">Red Amardcord (2020)</h1>
+			{children}
 			<div className="mb-8">
 				<Link href={`${directory}for-brandon-chase`}>
 					For Brandon Chase
@@ -47,7 +48,6 @@ export default function RedAmarcordLayout({
 				<Link href={`${directory}baburova`}>Baburova</Link>
 				<Divider />
 			</div>
-			{children}
 		</div>
 	);
 }

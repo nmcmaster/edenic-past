@@ -16,6 +16,7 @@ export default function ForBrandonChase() {
 				{isMounted && (
 					<iframe
 						style={iframeStyle}
+						className="lg:w-1/3 w-4/5 mx-auto"
 						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=de270f/track=3832122378/transparent=true/"
 						seamless
 					>

@@ -1,8 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import AlbumSquare from "./ui/AlbumSquare";
+import { redirect } from "next/navigation";
 
 export default function Home() {
+	redirect('/red-amarcord/for-brandon-chase');
+
 	return (
 		<>
 			<div className="flex flex-wrap justify-around">
@@ -25,7 +28,7 @@ export default function Home() {
 						alt="Edenic Past two song promo cover"
 					/>
 				</AlbumSquare>
-				<AlbumSquare title="Red Amarcord" href="red-amarcord">
+				<AlbumSquare title="Red Amarcord" href="red-amarcord/for-brandon-chase">
 					<Image
 						src="/red-amarcord-square.png"
 						className="hidden sm:block shadow-sm"
