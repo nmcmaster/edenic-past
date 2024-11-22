@@ -6,6 +6,7 @@ import {
 	paragraphBottomMargin,
 	playerHeight,
 } from "@/app/utils/constants";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Beria() {
@@ -174,7 +175,7 @@ export default function Beria() {
 					perfect. It’s a complete circuit. I am making these short
 					songs with bass and fake drums and I can’t stop thinking
 					about Ryszard Kapuściński, traveling to Kolyma by train
-					while reading a book about Beria.
+					while reading a book about Beria.<Link href="/red-amarcord/kolyma" className="text-red-700 ml-2">NEXT</Link>
 				</p>
 			</BodyText>
 		</>
