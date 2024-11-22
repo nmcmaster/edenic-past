@@ -9,10 +9,10 @@ export default function RedAmarcordLayout({
 }) {
 	const directory = "/red-amarcord/";
 	return (
-		<div className="text-center mb-5">
+		<div className="text-center pb-5">
 			<h1 className="mb-3">Red Amardcord (2020)</h1>
 			{children}
-			<div className="mb-8 mt-8 sm:w-4/5 text-sm sm:text-md mx-auto text-red-700">
+			<div className="pb-8 pt-8 sm:w-4/5 lg:text-lg text-sm mx-auto text-red-700">
 				<Link href={`${directory}for-brandon-chase`}>
 					For Brandon Chase
 				</Link>

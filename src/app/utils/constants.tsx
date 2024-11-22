@@ -6,3 +6,5 @@ export const iframeStyle = {
 };
 
 export const playerHeight = { height: 42 };
+
+export const paragraphBottomMargin = 'mb-5'
