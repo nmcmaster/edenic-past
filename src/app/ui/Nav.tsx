@@ -17,7 +17,7 @@ export default function Eof({
 	textBackward: string;
 }) {
 	return (
-		<div className="flex text-md sm:text-lg text-red-700 justify-between mt-5 px-3">
+		<div className="flex text-md sm:text-lg text-red-700 justify-between mt-5 sm:px-3 px-0.5">
 			<Link href={hrefBackward}>
 				<div className="flex">		
 					<div >{textBackward}</div>

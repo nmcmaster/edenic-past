@@ -80,7 +80,7 @@ export default function Beria() {
 					journalist, is more welcome among the MPLA. Upon being
 					stopped on the road by yet another band of armed men, he is
 					relieved to recognize among them (from their accented
-					Spanish) advisors from the Cuban special forces
+					Spanish) advisors from the Cuban special forces.
 				</p>{" "}
 				<p className={paragraphBottomMargin}>
 					{" "}
@@ -107,21 +107,20 @@ export default function Beria() {
 					As the famine begins. His mother gives all the available
 					food to her children, taking nothing for herself, but must
 					leave the kitchen for these meals. She is doing the right
-					thing for her kids, but, as she is starving herself, it is
+					thing for her kids but, as she is starving herself, it is
 					too much to watch them eat. It’s almost too fitting that his
-					hometown of Pińsk, where this is taking place, is currently
-					not Poland but Belorussia– the kind of capricious
-					post-colonial border jockeying he would’ve recognized from
-					Africa.
+					hometown of Pińsk, where this took place, is currently not
+					Poland but Belorussia– the kind of capricious post-colonial
+					border jockeying he would’ve recognized from Africa.
 				</p>{" "}
 				<p className={paragraphBottomMargin}>
 					But those deportations, the topic of obsessive discussion
 					among the schoolchildren, some of whom have even snuck out
-					to the railroad tracks, watched the dejected people being
+					to the railroad tracks and watched the dejected people being
 					offloaded from wagons and stuffed into train cars “using
 					knees and rifle butts so that there would be no room left
 					even for a pin.” These Poles are being deported to the labor
-					camps in Siberia, or to the Caucasus, where they will face
+					camps in Siberia or to the Caucasus, where they will face
 					poverty and hunger, separated from everything they have ever
 					known.
 				</p>{" "}
@@ -135,16 +134,15 @@ export default function Beria() {
 					equally murderous overseer of the Kolyma labor camp,
 					executed “for obscure reasons.” He organized the Katyn
 					massacre of Polish officialdom. Beria dances throughout
-					Imperium, as Kapuściński encounters evidence of his
-					handiwork and that of the NKVD on his travels.
+					<span className="italic">Imperium</span>, as Kapuściński
+					encounters evidence of his handiwork and that of the NKVD on
+					his travels.
 				</p>{" "}
 				<p className={paragraphBottomMargin}>
 					But the situation which Kapuściński describes in the most
 					detail is one in which Beria is a victim. He relates the
 					story told in a book he refers to as{" "}
-					<span className={paragraphBottomMargin}>
-						Beria: The End of the Career
-					</span>
+					<span className="italic">Beria: The End of the Career</span>
 					. In 1953 Stalin had been dead for four months, and his
 					successor Khrushchev worried that Beria would kill him and
 					seize power himself. So he assembled a posse which cornered
@@ -152,14 +150,15 @@ export default function Beria() {
 					have been planning his own coup: Marshal Georgy Zhukov, who
 					physically arrested Beria, said that in the moment he “was
 					pale, very pale. And stunned.” They snuck him out of the
-					Kremlin wrapped in a carpet to hide his arrest from his
+					Kremlin wrapped in a carpet to hide the arrest from his
 					staff.
 				</p>{" "}
-				<p className="mx-auto italic text-center mb-10 w-4/5 sm:w-full">
+				<p className="mx-auto italic text-center mb-7 sm:w-4/5 w-full px-3">
 					{" "}
 					“Then they tried Beria—not for his crimes, but for wanting
 					to seize power. And they immediately shot him.”
 				</p>{" "}
+				<div className="border-b border-black mx-9 mb-3"></div>
 				<p className={paragraphBottomMargin}>
 					{" "}
 					It is May 2020 and I am making short songs with bass and

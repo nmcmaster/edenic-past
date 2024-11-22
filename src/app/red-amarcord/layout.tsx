@@ -39,7 +39,7 @@ export default function RedAmarcordLayout({
 				<Divider />
 				<Link href={`${directory}litvinenko`}>Litvinenko</Link>
 				<Divider />
-			
+
 				<Link href={`${directory}politkovskaya`}>Politkovskaya</Link>
 				<div className="hidden sm:inline">
 					<Divider />
@@ -50,14 +50,20 @@ export default function RedAmarcordLayout({
 				<Link href={`${directory}katyn`}>Katyn</Link>
 				<Divider />
 				<Link href={`${directory}kyrgyz-komuz`}>Kyrgyz Komuz</Link>
-				<div className="hidden sm:inline">	<Divider /></div>
+				<div className="hidden sm:inline">
+					{" "}
+					<Divider />
+				</div>
 				<div className="sm:hidden" />
 				<Link href={`${directory}koestler`}>Koestler</Link>
 				<Divider />
 				<Link href={`${directory}red-amarcord`}>Red Amarcord</Link>
 				<Divider />
 				<Link href={`${directory}baburova`}>Baburova</Link>
-		
+				<div>
+					{" "}
+					<Link href="#">Bibliography</Link>
+				</div>
 			</div>
 		</div>
 	);
