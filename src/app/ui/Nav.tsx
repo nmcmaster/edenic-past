@@ -21,26 +21,18 @@ export default function Eof({
 	isEnding?: boolean;
 }) {
 	return (
-		<div className="flex justify-between mt-10 px-6">
+		<div className="flex text-sm sm:text-md text-red-700 justify-between mt-5 px-3">
 			<Link href={hrefBackward}>
 				<div className="flex">
-					{isBeginning ? (
-						<InformationCircleIcon className="w-6 h-6" />
-					) : (
-						<ArrowLeftIcon className="w-6 h-6" />
-					)}
-					<div className="ml-1.5">{textBackward}</div>
+				
+					<div >{textBackward}</div>
 				</div>
 			</Link>
 
 			<Link href={hrefForward}>
 				<div className="flex">
 					<div>{textForward}</div>
-					{isEnding ? (
-						<InformationCircleIcon className="w-6 h-6" />
-					) : (
-						<ArrowRightIcon className="ml-1.5 block w-6 h-6" />
-					)}
+				
 				</div>
 			</Link>
 		</div>

@@ -1,6 +1,6 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
-import Eof from "@/app/ui/Eof";
+import Nav from "@/app/ui/Nav";
 import { iframeStyle, playerHeight } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
@@ -26,7 +26,13 @@ export default function ForBrandonChase() {
 					</iframe>
 				)}
 			</div>
-
+			<Nav
+				hrefBackward="/red-amarcord"
+				hrefForward="/red-amarcord/beria"
+				textBackward="Red Amarcord album info"
+				textForward="Beria"
+				isBeginning
+			/>
 			<BodyText>
 				Brandon Chase was a friend of mine who passed in 2020. He wrote
 				a blog about his experience in city-funded rehabs in New York
@@ -37,13 +43,7 @@ export default function ForBrandonChase() {
 				the internet. We used to sit around listening to brutal death
 				metal, so I like to think he would've actually liked this track.
 			</BodyText>
-			<Eof
-				hrefBackward="/red-amarcord"
-				hrefForward="/red-amarcord/beria"
-				textBackward="Red Amarcord album info"
-				textForward="Beria"
-				isBeginning
-			/>
+			
 		</>
 	);
 }
