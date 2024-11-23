@@ -4,11 +4,14 @@ import Nav from "@/app/ui/Nav";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
+	playerCss,
 	playerHeight,
+	pullQuote,
 } from "@/app/utils/constants";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+/* eslint-disable react/no-unescaped-entities */
 export default function Beria() {
 	const [isMounted, setIsMounted] = useState(false);
 	useEffect(() => {
@@ -20,7 +23,7 @@ export default function Beria() {
 				{isMounted && (
 					<iframe
 						style={iframeStyle}
-						className="lg:w-1/3 w-4/5 mx-auto"
+						className="w-full"
 						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=3468900866/transparent=true/"
 						seamless
 					>
@@ -89,10 +92,10 @@ export default function Beria() {
 					turns his reporting to home. Well, sort of his home. The
 					basic point of the book is that when we think of
 					colonialism, we tend to think of the British Empire and
-					those of other western European countries, but the Russian
-					imperial project is at least as significant. With the
-					dissolution of the Soviet Union in the early ‘90s, it’s
-					clear that the Imperium is at either an end or a major
+					those of other western European countries (and the US), but
+					the Russian imperial project is at least as significant.
+					With the dissolution of the Soviet Union in the early ‘90s,
+					it’s clear that the Imperium is at either an end or a major
 					inflection point. As in Angola, in Honduras, in Ethiopia, he
 					wants to see the country while the transition is fresh, and
 					so he travels to key locations in Russia and its former
@@ -154,7 +157,7 @@ export default function Beria() {
 					Kremlin wrapped in a carpet to hide the arrest from his
 					staff.
 				</p>{" "}
-				<p className="mx-auto italic text-center mb-7 sm:w-4/5 w-full px-3">
+				<p className={pullQuote}>
 					{" "}
 					“Then they tried Beria—not for his crimes, but for wanting
 					to seize power. And they immediately shot him.”
@@ -175,7 +178,13 @@ export default function Beria() {
 					perfect. It’s a complete circuit. I am making these short
 					songs with bass and fake drums and I can’t stop thinking
 					about Ryszard Kapuściński, traveling to Kolyma by train
-					while reading a book about Beria.<Link href="/red-amarcord/kolyma" className="text-red-700 ml-2">NEXT</Link>
+					while reading a book about Beria.
+					<Link
+						href="/red-amarcord/kolyma"
+						className="text-red-700 ml-2"
+					>
+						NEXT
+					</Link>
 				</p>
 			</BodyText>
 		</>

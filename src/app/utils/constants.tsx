@@ -7,4 +7,8 @@ export const iframeStyle = {
 
 export const playerHeight = { height: 42 };
 
-export const paragraphBottomMargin = 'mb-5'
+export const paragraphBottomMargin = 'mb-5';
+
+export const playerCss = "lg:w-1/3 w-4/5 mx-auto";
+
+export const pullQuote = "mx-auto italic text-center mb-7 sm:w-4/5 w-full px-3";

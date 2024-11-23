@@ -1,7 +1,7 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
-import { iframeStyle, playerHeight } from "@/app/utils/constants";
+import { iframeStyle, playerCss, playerHeight } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -16,7 +16,7 @@ export default function ForBrandonChase() {
 				{isMounted && (
 					<iframe
 						style={iframeStyle}
-						className="lg:w-1/3 mx-auto"
+						className={playerCss}
 						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=de270f/track=3832122378/transparent=true/"
 						seamless
 					>

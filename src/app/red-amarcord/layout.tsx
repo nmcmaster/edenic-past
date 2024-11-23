@@ -60,8 +60,7 @@ export default function RedAmarcordLayout({
 				<Link href={`${directory}red-amarcord`}>Red Amarcord</Link>
 				<Divider />
 				<Link href={`${directory}baburova`}>Baburova</Link>
-				<div>
-					{" "}
+				<div className="mt-1.5 border-t border-gray-400 w-1/3 mx-auto pt-1">
 					<Link href="#">Bibliography</Link>
 				</div>
 			</div>
