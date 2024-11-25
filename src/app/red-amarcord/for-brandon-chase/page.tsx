@@ -31,6 +31,7 @@ export default function ForBrandonChase() {
 				hrefForward="/red-amarcord/beria"
 				textBackward="album info"
 				textForward="Beria"
+				infoIconLeft
 			/>
 			<BodyText>
 				Brandon Chase was a friend of mine who passed in 2020. He wrote

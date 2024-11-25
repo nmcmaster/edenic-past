@@ -31,6 +31,7 @@ export default function Baburova() {
 				hrefForward="/red-amarcord"
 				textBackward="Red Amarcord"
 				textForward="album info"
+				infoIconRight
 			/>
 			<BodyText>Baburova</BodyText>
 		</>

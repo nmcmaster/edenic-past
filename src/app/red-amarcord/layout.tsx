@@ -61,7 +61,7 @@ export default function RedAmarcordLayout({
 				<Divider />
 				<Link href={`${directory}baburova`}>Baburova</Link>
 				<div className="mt-1.5 border-t border-gray-400 w-1/3 mx-auto pt-1">
-					<Link href="#">Bibliography</Link>
+					<Link href="#">Bibliography</Link> <Divider /> <Link href="/discography">Discography</Link>
 				</div>
 			</div>
 		</div>
