@@ -34,7 +34,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 			<Nav
 				hrefBackward="/red-amarcord/kolyma"
 				hrefForward="/red-amarcord/chuck-schuldiner"
-				textBackward="The Connection Between Bruno Schulz and the Holodomor"
+				textBackward="Holodomor"
 				textForward="Chuck Schuldiner"
 			/>
 			<BodyText>

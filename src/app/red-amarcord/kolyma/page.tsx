@@ -36,7 +36,7 @@ export default function Kolyma() {
 				hrefBackward="/red-amarcord/beria"
 				hrefForward="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor"
 				textBackward="Beria"
-				textForward="The Connection Between Bruno Schulz and the Holodomor"
+				textForward="Holodomor"
 			/>
 			<BodyText>
 				<p className={paragraphBottomMargin}>
