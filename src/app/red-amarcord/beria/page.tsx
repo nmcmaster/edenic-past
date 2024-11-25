@@ -23,7 +23,7 @@ export default function Beria() {
 				{isMounted && (
 					<iframe
 						style={iframeStyle}
-						className="w-full"
+						className={playerCss}
 						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=3468900866/transparent=true/"
 						seamless
 					>

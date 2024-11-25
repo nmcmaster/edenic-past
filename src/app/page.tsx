@@ -57,7 +57,7 @@ export default function Home() {
 					mastered every recording. The views expressed on this
 					website in exposition of the themes for Edenic Past's songs
 					should be taken as McMaster's views alone, not necessarily
-					speaking for the other members.
+					speaking for the other members. All writings by McMaster except where noted.
 				</p>
 				<p>
 					The name Edenic Past refers to refers to a core element of
