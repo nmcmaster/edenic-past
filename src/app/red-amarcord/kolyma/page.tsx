@@ -90,7 +90,57 @@ export default function Kolyma() {
 					the same role vis-à-vis Dal’stroy as the concentration camp
 					Auschwitz/Birkenau did vis-à-vis IG Farben—it supplied the
 					slaves."
-					<p className="text-right">Ryszard Kapuściński, <span className="italic">Imperium</span></p>
+					<p className="text-right">
+						Ryszard Kapuściński,{" "}
+						<span className="italic">Imperium</span>
+					</p>
+				</div>
+				<div className={paragraphBottomMargin}>
+					The Kolyma mining operation’s development roughly coincides
+					with the years of Stalin’s Great Terror. Eventually there
+					are 160 prison mining camps in the Kolyma area. Two
+					unrelated aims, the mining of gold and the liquidation of
+					undesirables, achieved a terrible symbiosis. Who were these
+					undesirables? Among them, Ukrainian peasants who resisted
+					joining the collectivized Soviet farming system (kolkhozes).
+					Poles, Greeks, Germans and Kalmuks. Members of the Socialist
+					Revolutionary Party, another group that had fought against
+					the Tsarist monarchy but ultimately lost out to the
+					Bolsheviks in the post-revolutionary civil war. Academics
+					who were Trotskyists, or just insufficiently Stalinist.
+					Russians who worked abroad as, for example, engineers in
+					western countries were often deported upon their return.
+					Ordinary Russians denounced by their neighbors or
+					co-workers.
+				</div>
+				<div className={paragraphBottomMargin}>
+					Varlam Shalamov was born in Vologda, a town in Northern
+					Russia, in 1907. Volgoda saw terrible violence in the
+					revolution and following civil war, but “Shalamov
+					sympathized with the revolutionaries, particularly the
+					Trotskyist factions, even though, as the son of a priest, he
+					was excluded by the Communists from higher education.”
+					(Donald Rayfield, Kolyma Tales introduction). Running in
+					Trotskyist circles led to his public endorsement of Lenin’s
+					Testament, a document which described Stalin as unfit to be
+					Secretary-General of the Communist Party. In 1929 he was
+					arrested for that and spent three years at a chemical plant
+					in the northern Ural mountains, but he was released in 1931.{" "}
+				</div>
+				<div className={paragraphBottomMargin}>
+					In the Urals he met his first wife, Galina Gudz. They
+					returned to Moscow after Shalamov’s 1931 release and started
+					a family. Despite being a convicted Trotskyist, Shalamov was
+					able to work in Moscow relatively unmolested. Galina’s
+					brother, Boris Gudz, however, secret police (the OGPU, until
+					it morphed into the NKVD in 1934), and worried about the
+					political taint on his brother in law. Boris pressured
+					Shalamov to write to the secret police, seemingly in an
+					attempt to get ahead of the problem. But all this letter did
+					was bring to the attention of the NKVD this Trotskyist who
+					had been insufficiently punished. He was arrested again in
+					1937 (the most brutal year of Stalin’s Great Terror) and
+					sent to Kolyma.
 				</div>
 			</BodyText>
 		</>
