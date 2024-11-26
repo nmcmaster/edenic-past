@@ -27,7 +27,7 @@ export default function KyrgyzKomuz() {
 				)}
 			</div>
 			<Nav
-				hrefBackward="/red-amarcord/kyrgyz-komuz"
+				hrefBackward="/red-amarcord/katyn"
 				hrefForward="/red-amarcord/koestler"
 				textBackward="Katyn"
 				textForward="Koestler"
