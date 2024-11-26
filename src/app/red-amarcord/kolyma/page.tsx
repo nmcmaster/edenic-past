@@ -114,7 +114,7 @@ export default function Kolyma() {
 					co-workers.
 				</div>
 				<div className={paragraphBottomMargin}>
-					Varlam Shalamov was born in Vologda, a town in Northern
+					Varlam Shalamov was born in Vologda, a town in northern
 					Russia, in 1907. Volgoda saw terrible violence in the
 					revolution and following civil war, but “Shalamov
 					sympathized with the revolutionaries, particularly the
@@ -132,15 +132,25 @@ export default function Kolyma() {
 					returned to Moscow after Shalamov’s 1931 release and started
 					a family. Despite being a convicted Trotskyist, Shalamov was
 					able to work in Moscow relatively unmolested. Galina’s
-					brother, Boris Gudz, however, secret police (the OGPU, until
-					it morphed into the NKVD in 1934), and worried about the
-					political taint on his brother in law. Boris pressured
-					Shalamov to write to the secret police, seemingly in an
-					attempt to get ahead of the problem. But all this letter did
-					was bring to the attention of the NKVD this Trotskyist who
-					had been insufficiently punished. He was arrested again in
-					1937 (the most brutal year of Stalin’s Great Terror) and
-					sent to Kolyma.
+					brother, Boris Gudz, however, was an agent of the secret
+					police (the OGPU, until it morphed into the NKVD in 1934),
+					and worried about the political taint on his brother in law.
+					Boris pressured Shalamov to write to the secret police,
+					seemingly in an attempt to get ahead of the problem. But all
+					this letter did was bring to the attention of the NKVD this
+					Trotskyist who had been insufficiently punished. He was
+					arrested again in 1937 (the most brutal year of Stalin’s
+					Great Terror), given a new sentence of counterrevolutionary
+					Trotskyist activity, and sent to Kolyma. Galina and her
+					sister were exiled to collective farms in Turkmenistan.
+					Boris, for his assiduousness, was fired from the secret
+					police and became a bus driver. Shalamov and Galina's
+					daughter, Elena, was born in 1935 and brought up as a
+					conventional Stalinist. When she came of age, she preferred
+					to think of her father as dead or a criminal.
+				</div>
+				<div className={paragraphBottomMargin}>
+					
 				</div>
 			</BodyText>
 		</>
