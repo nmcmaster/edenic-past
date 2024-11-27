@@ -107,10 +107,27 @@ export default function Kolyma() {
 					the Tsarist monarchy but ultimately lost out to the
 					Bolsheviks in the post-revolutionary civil war. Academics
 					who were Trotskyists, or just insufficiently Stalinist.
-					Russians who worked abroad as, for example, engineers in
-					western countries were often deported upon their return.
 					Ordinary Russians denounced by their neighbors or
-					co-workers.
+					co-workers. Russians who worked abroad as, for example,
+					engineers in western countries were often deported upon
+					their return.
+				</div>
+				<div className={pullQuote}>
+					"Marusia Kriukova arrived from Japan at the end of the
+					1930s. The daughter of an émigré who was living on the
+					outskirts of Kyoto, Marusia, along with her brother, joined
+					a union called Return to Russia, contacted the Soviet
+					consulate, and in 1939 received a Russian entry visa.
+					Marusia, her brother, and their fellow returnees were
+					arrested in Vladivostok; Marusia was taken to Moscow and
+					never saw any of her friends again. Marusia’s leg was broken
+					under interrogation, and when the bone mended she was sent
+					to Kolyma to serve a twenty-five-year term of imprisonment."
+					<div className="text-right">
+						Varlam Shalamov,{" "}
+						<span className="italic">Kolyma Tales</span>, "The
+						Necktie"
+					</div>
 				</div>
 				<div className={paragraphBottomMargin}>
 					Varlam Shalamov was born in Vologda, a town in northern
@@ -119,12 +136,14 @@ export default function Kolyma() {
 					sympathized with the revolutionaries, particularly the
 					Trotskyist factions, even though, as the son of a priest, he
 					was excluded by the Communists from higher education.”
-					(Donald Rayfield, Kolyma Tales introduction). Running in
-					Trotskyist circles led to his public endorsement of Lenin’s
-					Testament, a document which described Stalin as unfit to be
-					Secretary-General of the Communist Party. In 1929 he was
-					arrested for that and spent three years at a chemical plant
-					in the northern Ural mountains, but he was released in 1931.{" "}
+					(Donald Rayfield,{" "}
+					<span className="italic">Kolyma Tales</span> introduction).
+					Running in Trotskyist circles led to his public endorsement
+					of "Lenin’s Testament," a document which described Stalin as
+					unfit to be Secretary-General of the Communist Party. In
+					1929 he was arrested for that and spent three years at a
+					chemical plant in the northern Ural mountains, but he was
+					released in 1931.{" "}
 				</div>
 				<div className={paragraphBottomMargin}>
 					In the Urals he met his first wife, Galina Gudz. They
@@ -144,13 +163,11 @@ export default function Kolyma() {
 					sister were exiled to collective farms in Turkmenistan.
 					Boris, for his assiduousness, was fired from the secret
 					police and became a bus driver. Shalamov and Galina's
-					daughter, Elena, was born in 1935 and brought up as a
+					daughter, Elena, had been born in 1935 and brought up as a
 					conventional Stalinist. When she came of age, she preferred
 					to think of her father as dead or a criminal.
 				</div>
-				<div className={paragraphBottomMargin}>
-					
-				</div>
+				<div className={paragraphBottomMargin}></div>
 			</BodyText>
 		</>
 	);
