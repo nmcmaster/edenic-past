@@ -40,7 +40,7 @@ export default function Kolyma() {
 			/>
 			<BodyText>
 				<div className="text-left sm:text-center sm:w-4/5 indent-0 sm:mx-auto px-1 mb-7">
-					<p className="font-bold pb-1.5">
+					<p className="font-bold text-sm sm:text-lg pb-2">
 						WHAT I SAW AND UNDERSTOOD IN THE CAMPS
 					</p>
 					<p>

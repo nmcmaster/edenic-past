@@ -21,10 +21,10 @@ export default function Eof({
 	infoIconRight?: boolean;
 }) {
 	return (
-		<div className="flex text-md text-red-700 justify-between mt-5 sm:px-3 px-1">
+		<div className="flex text-sm text-red-700 justify-between mt-5 sm:px-3 px-1">
 			<Link href={hrefBackward}>
 				<>
-					<div>{textBackward}</div>
+					<div className="">{textBackward}</div>
 					{infoIconLeft ? (
 						<InformationCircleIcon className="h-4 w-4" />
 					) : (
