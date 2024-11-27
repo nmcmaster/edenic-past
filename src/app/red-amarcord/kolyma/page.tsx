@@ -132,7 +132,7 @@ export default function Kolyma() {
 					a family. Despite being a convicted Trotskyist, Shalamov was
 					able to work in Moscow relatively unmolested. Galina’s
 					brother, Boris Gudz, however, was an agent of the secret
-					police (the OGPU, until it morphed into the NKVD in 1934),
+					police (the OGPU, until it morphed into the NKVD in 1934)
 					and worried about the political taint on his brother in law.
 					Boris pressured Shalamov to write to the secret police,
 					seemingly in an attempt to get ahead of the problem. But all
