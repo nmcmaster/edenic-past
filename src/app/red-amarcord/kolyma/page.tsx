@@ -40,7 +40,7 @@ export default function Kolyma() {
 			/>
 			<BodyText>
 				<div className="text-left sm:text-center sm:w-4/5 indent-0 sm:mx-auto px-1 mb-7">
-					<p className="font-bold pb-2">
+					<p className="font-bold pb-1.5">
 						WHAT I SAW AND UNDERSTOOD IN THE CAMPS
 					</p>
 					<p>
@@ -167,7 +167,38 @@ export default function Kolyma() {
 					conventional Stalinist. When she came of age, she preferred
 					to think of her father as dead or a criminal.
 				</div>
-				<div className={paragraphBottomMargin}></div>
+				<div className={paragraphBottomMargin}>
+					In the 1932-1937 period between his arrests, Shalamov saw
+					some of his essays and articles published, including his
+					first short story “The Three Deaths of Dr. Austin” (1936).
+					Once in Kolyma, he wrote only one work of prose, a 600-page
+					dictionary of <span className="italic">fenia</span> or{" "}
+					<span className="italic">blatnoi yazyk</span>, the
+					generational slang of the hereditary criminal class in
+					Russia. The dictionary has been lost to time. The gangsters,
+					with their elongated pinky-finger nails and pewter crosses,
+					are vivid characters in{" "}
+					<span className="italic">Kolyma Tales</span>. They contrast
+					sharply to the “politicals” convicted under Article 58, who
+					start out as essentially moral, though fatally naive to the
+					realities of the camps. Some gangsters are seen to have
+					little fiefdoms with hapless Article 58's tickling their
+					feet or reciting{" "}
+					<span className="italic">Les Miserables </span>
+					or Arthur Conan Doyle from memory for protection and an
+					extra slice of bread a day. Hundreds of tiny Caligulas.
+				</div>
+				<div className={paragraphBottomMargin}>
+					Shalamov survived several years of gold mining in Kolyma,
+					due to the grace of a series of near-misses, most of which
+					he would end up fictionalizing. However, after nine years,
+					he had succumbed to the fate of most camp laborers: he was a
+					<span className="italic">dokhodyaga</span>, a camp term for the walking dead, those who,
+					while still technically breathing, had been starved and
+					frozen past the experience of what anyone could call life.
+					Waiting for their time. The closest English translation is
+					the clunky “goner.”
+				</div>
 			</BodyText>
 		</>
 	);
