@@ -157,11 +157,17 @@ export default function Beria() {
 					Kremlin wrapped in a carpet to hide the arrest from his
 					staff.
 				</p>{" "}
-				<p className={pullQuote}>
-					{" "}
-					“Then they tried Beria—not for his crimes, but for wanting
-					to seize power. And they immediately shot him.”
-				</p>{" "}
+				<div className={pullQuote}>
+					<div>
+						{" "}
+						“Then they tried Beria—not for his crimes, but for
+						wanting to seize power. And they immediately shot him.”
+					</div>
+					<div className="text-right text-sm">
+						Ryszard Kapuściński,{" "}
+						<span className="italic">Imperium</span>
+					</div>
+				</div>
 				<div className="border-b border-black mx-9 mb-3"></div>
 				<p className={paragraphBottomMargin}>
 					{" "}
