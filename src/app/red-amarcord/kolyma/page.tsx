@@ -39,11 +39,10 @@ export default function Kolyma() {
 				textForward="Holodomor"
 			/>
 			<BodyText>
-				<div className={pullQuote}>
-					<span className="font-bold">
-						{" "}
+				<div className="text-left sm:text-center sm:w-4/5 indent-0 sm:mx-auto px-1 mb-7">
+					<p className="font-bold pb-2">
 						WHAT I SAW AND UNDERSTOOD IN THE CAMPS
-					</span>
+					</p>
 					<p>
 						1. The extreme fragility of human culture, civilization.
 						A man becomes a beast in three weeks, given heavy labor,

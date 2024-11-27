@@ -26,9 +26,9 @@ export default function Eof({
 				<>
 					<div>{textBackward}</div>
 					{infoIconLeft ? (
-						<InformationCircleIcon className="h-5 w-5" />
+						<InformationCircleIcon className="h-4 w-4" />
 					) : (
-						<ArrowLeftIcon className="h-5 w-5" />
+						<ArrowLeftIcon className="h-4 w-4" />
 					)}
 				</>
 			</Link>
@@ -39,9 +39,9 @@ export default function Eof({
 					<div className="flex justify-end">
 						{" "}
 						{infoIconRight ? (
-							<InformationCircleIcon className="h-5 w-5" />
+							<InformationCircleIcon className="h-4 w-4" />
 						) : (
-							<ArrowRightIcon className="h-5 w-5 text-right" />
+							<ArrowRightIcon className="h-4 w-4 text-right" />
 						)}
 					</div>
 				</>
