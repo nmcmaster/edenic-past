@@ -163,7 +163,7 @@ export default function Beria() {
 						“Then they tried Beria—not for his crimes, but for
 						wanting to seize power. And they immediately shot him.”
 					</div>
-					<div className="text-right text-sm">
+					<div className="text-right text-sm pt-0.5">
 						Ryszard Kapuściński,{" "}
 						<span className="italic">Imperium</span>
 					</div>

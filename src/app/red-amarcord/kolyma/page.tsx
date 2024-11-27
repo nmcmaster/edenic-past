@@ -69,7 +69,7 @@ export default function Kolyma() {
 						of a husband following his wife. But wives would come,
 						many of them.
 					</p>{" "}
-					<p className="text-right text-sm">Varlam Shalamov, 1961</p>
+					<p className="text-right text-sm pt-0.5">Varlam Shalamov, 1961</p>
 				</div>
 				<p className={paragraphBottomMargin}>
 					{" "}
@@ -89,7 +89,7 @@ export default function Kolyma() {
 					the same role vis-à-vis Dal’stroy as the concentration camp
 					Auschwitz/Birkenau did vis-à-vis IG Farben—it supplied the
 					slaves."
-					<p className="text-right text-sm">
+					<p className="text-right text-sm pt-0.5">
 						Ryszard Kapuściński,{" "}
 						<span className="italic">Imperium</span>
 					</p>
@@ -123,7 +123,7 @@ export default function Kolyma() {
 					never saw any of her friends again. Marusia’s leg was broken
 					under interrogation, and when the bone mended she was sent
 					to Kolyma to serve a twenty-five-year term of imprisonment."
-					<div className="text-right text-sm">
+					<div className="text-right text-sm pt-0.5">
 						Varlam Shalamov,{" "}
 						<span className="italic">Kolyma Tales</span>, "The
 						Necktie"
