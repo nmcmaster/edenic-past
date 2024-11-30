@@ -7,6 +7,7 @@ import {
 	playerCss,
 	playerHeight,
 	pullQuote,
+	pullQuoteAuthor,
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
@@ -40,7 +41,7 @@ export default function Kolyma() {
 			/>
 			<BodyText>
 				<div className="text-left sm:text-center sm:w-4/5 indent-0 sm:mx-auto px-1 mb-7">
-					<p className="font-bold text-sm sm:text-lg pb-2">
+					<p className="font-bold text-sm sm:text-lg sm:pb-2 pb-3">
 						WHAT I SAW AND UNDERSTOOD IN THE CAMPS
 					</p>
 					<p>
@@ -69,7 +70,7 @@ export default function Kolyma() {
 						of a husband following his wife. But wives would come,
 						many of them.
 					</p>{" "}
-					<p className="text-right text-sm pt-0.5">Varlam Shalamov, 1961</p>
+					<p className={pullQuoteAuthor}>Varlam Shalamov, 1961</p>
 				</div>
 				<p className={paragraphBottomMargin}>
 					{" "}
@@ -89,10 +90,10 @@ export default function Kolyma() {
 					the same role vis-à-vis Dal’stroy as the concentration camp
 					Auschwitz/Birkenau did vis-à-vis IG Farben—it supplied the
 					slaves."
-					<p className="text-right text-sm pt-0.5">
+					<div className={pullQuoteAuthor}>
 						Ryszard Kapuściński,{" "}
 						<span className="italic">Imperium</span>
-					</p>
+					</div>
 				</div>
 				<div className={paragraphBottomMargin}>
 					The Kolyma mining operation’s development roughly coincides
@@ -123,7 +124,7 @@ export default function Kolyma() {
 					never saw any of her friends again. Marusia’s leg was broken
 					under interrogation, and when the bone mended she was sent
 					to Kolyma to serve a twenty-five-year term of imprisonment."
-					<div className="text-right text-sm pt-0.5">
+					<div className={pullQuoteAuthor}>
 						Varlam Shalamov,{" "}
 						<span className="italic">Kolyma Tales</span>, "The
 						Necktie"
@@ -190,15 +191,87 @@ export default function Kolyma() {
 				</div>
 				<div className={paragraphBottomMargin}>
 					Shalamov survived several years of gold mining in Kolyma,
-					due to the grace of a series of near-misses, most of which
-					he would end up fictionalizing. However, after nine years,
-					he had succumbed to the fate of most camp laborers: he was a
-					<span className="italic">dokhodyaga</span>, a camp term for the walking dead, those who,
-					while still technically breathing, had been starved and
-					frozen past the experience of what anyone could call life.
-					Waiting for their time. The closest English translation is
-					the clunky “goner.”
+					due to the grace of a series of near-misses, many of which
+					would later be recorded as stories. However, after nine
+					years, he had succumbed to the fate of most camp laborers:
+					he was a<span className="italic"> dokhodyaga</span>, a camp
+					term for the walking dead, those who, while still
+					technically breathing, had been starved and frozen past the
+					experience of what anyone could call life. Waiting for their
+					time. The closest English translation is the clunky “goner.”
 				</div>
+				<div className={paragraphBottomMargin}>
+					The mechanisms of death in Kolyma are somewhat indirect.
+					Shalamov reports that prisoners refer to Kolyma as
+					“Auschwitz without the ovens” and it’s true; there is no
+					organized mass slaughter of prisoners. Instead an
+					environment is created in which death has a thousand
+					entrances. For one you can be summarily shot by guards for
+					stepping two paces out of a designated prisoner queue,
+					perhaps you did so to pick some berries because you are
+					starving. Guards or gangsters could beat a prisoner to death
+					(or so badly that death found the prisoner three weeks
+					later, in a hospital bed) at the slightest provocation.
+				</div>
+				<div className={paragraphBottomMargin}>
+					I was haunted by the story “A Personal Quota”, which relates
+					the fate of Dugayev, a 23-year-old university student who
+					has gone “straight from the lecture room to this pit face.”
+					His fellow workers have complained that, unused to the hard
+					labor of gold mining as he is, he does not pull his own
+					weight. He is assigned a “personal quota”-- moved to a
+					special area he works alone, in which his progress is
+					explicitly measured by a guard .The first time I read it, I
+					was naive like Dugayev, until the story’s final paragraph.
+					Reading it twice, you see that the cigarette suddenly
+					offered by Dugayev’s bunkmate despite them “not being
+					friends”, the averted glances, and the sudden reverie of the
+					foreman “to the evening star” are acknowledgments that the
+					personal quota is a death sentence: an impossible amount of
+					work for a starving and exhausted person to do in a day. The
+					next night, after a brief session with an interrogator in
+					which he gives only his name and the sentence he is
+					currently serving, Dugayev is escorted by soldiers to a
+					ravine some distance from the camp cordoned off by a barbed
+					wire fence from which “at nights you could hear from this
+					point the rumbling of tractors.” Auschwitz without the ovens
+					indeed.
+				</div>
+				<div className={paragraphBottomMargin}>
+					Or perhaps you’d be on the prisoner transport ship{" "}
+					<span className="italic"> Kim</span>, and either mutinied
+					with a majority of the prisoners or stood by– all the same,
+					the escort guards flooded the hold with water. A cargo hold
+					arriving in Kolyma filled with human blocks of ice.
+					Nonethelss, all these deaths were still somewhat
+					exceptional. More plainly, a brutal calculus emerges:
+					sixteen-hour days of mining labor, not enough warm clothing
+					or blankets in freezing temperatures, and starvation
+					rations. The lack of Vitamin C in those rations led to near
+					universal scurvy as well.{" "}
+				</div>
+				<div className={pullQuote}>
+					{" "}
+					"In the camps, however, to turn a healthy young man, who had
+					begun his career in the clean winter air of the gold mines,
+					into a goner, all that was needed, at a conservative
+					estimate, was a term of twenty to thirty days of sixteen
+					hours of work per day, with no rest days, with systematic
+					starvation, torn clothes, and nights spent in temperatures
+					of minus sixty degrees in a canvas tent with holes in it,
+					and being beaten by the foremen, the criminal gang masters,
+					and the guards. Brigades that start the gold-mining season
+					(the brigades are named after their foremen) have, by the
+					end of the season, not a single man left alive from the
+					start of the season, except for the foreman and one or two
+					of the foreman’s personal friends."{" "}
+					<div className={pullQuoteAuthor}>
+						Varlam Shalamov,{" "}
+						<span className="italic">Kolyma Tales</span>, "The Tatar
+						Mullah and Clean Air"
+					</div>
+				</div>
+				<div className={paragraphBottomMargin}>Shalamov the goner was 105 lbs...</div>
 			</BodyText>
 		</>
 	);
