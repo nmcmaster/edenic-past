@@ -241,14 +241,13 @@ export default function Kolyma() {
 					Or perhaps you’d be on the prisoner transport ship{" "}
 					<span className="italic"> Kim</span>, and either mutinied
 					with a majority of the prisoners or stood by– all the same,
-					the escort guards flooded the hold with water. A cargo hold
-					arriving in Kolyma filled with human blocks of ice.
-					Nonethelss, all these deaths were still somewhat
-					exceptional. More plainly, a brutal calculus emerges:
-					sixteen-hour days of mining labor, not enough warm clothing
-					or blankets in freezing temperatures, and starvation
-					rations. The lack of Vitamin C in those rations led to near
-					universal scurvy as well.{" "}
+					the escort guards flooded the hold with freezing water no
+					one could escape. Nonetheless, all these deaths were still
+					somewhat exceptional. More plainly, a brutal calculus
+					emerges: sixteen-hour days of mining labor, not enough warm
+					clothing or blankets in freezing temperatures, and
+					starvation rations. The lack of Vitamin C in those rations
+					led to near universal scurvy as well.{" "}
 				</div>
 				<div className={pullQuote}>
 					{" "}
@@ -260,8 +259,7 @@ export default function Kolyma() {
 					starvation, torn clothes, and nights spent in temperatures
 					of minus sixty degrees in a canvas tent with holes in it,
 					and being beaten by the foremen, the criminal gang masters,
-					and the guards. Brigades that start the gold-mining season
-					(the brigades are named after their foremen) have, by the
+					and the guards. Brigades that start the gold-mining season have, by the
 					end of the season, not a single man left alive from the
 					start of the season, except for the foreman and one or two
 					of the foreman’s personal friends."{" "}
@@ -271,7 +269,9 @@ export default function Kolyma() {
 						Mullah and Clean Air"
 					</div>
 				</div>
-				<div className={paragraphBottomMargin}>Shalamov the goner was 105 lbs...</div>
+				<div className={paragraphBottomMargin}>
+					Shalamov the goner was 105 lbs...
+				</div>
 			</BodyText>
 		</>
 	);
