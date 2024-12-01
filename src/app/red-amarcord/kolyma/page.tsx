@@ -259,10 +259,10 @@ export default function Kolyma() {
 					starvation, torn clothes, and nights spent in temperatures
 					of minus sixty degrees in a canvas tent with holes in it,
 					and being beaten by the foremen, the criminal gang masters,
-					and the guards. Brigades that start the gold-mining season have, by the
-					end of the season, not a single man left alive from the
-					start of the season, except for the foreman and one or two
-					of the foreman’s personal friends."{" "}
+					and the guards. Brigades that start the gold-mining season
+					have, by the end of the season, not a single man left alive
+					from the start of the season, except for the foreman and one
+					or two of the foreman’s personal friends."{" "}
 					<div className={pullQuoteAuthor}>
 						Varlam Shalamov,{" "}
 						<span className="italic">Kolyma Tales</span>, "The Tatar
@@ -270,7 +270,43 @@ export default function Kolyma() {
 					</div>
 				</div>
 				<div className={paragraphBottomMargin}>
-					Shalamov the goner was 105 lbs...
+					Shalamov the goner was 105 lbs, when he was admitted to a
+					camp hospital, in his ninth year of imprisonment. As
+					recorded in the story "Dominoes", he was saved by
+					Mikhailovich, a doctor who for unknown reasons with Shalamov
+					breaks the deadly bureacratic shuffling of starving
+					patients. "You don't need any treatment," Mikhailovich tells
+					Shalamov, "you need to be fed and washed. You need to stay
+					in bed and eat." This is the well-known case under
+					totalitarianism of a simple, true statement taking on a
+					profound, near-revolutionairy character. As Shalamov is
+					nursed back to health, he finds ways to become useful to the
+					hospital administration, and eventually is able to enroll in
+					a course for paramedic training. This stories dealing with
+					his training and work in the hospital constitute a
+					lightening of tone for{" "}
+					<span className="italic"> Kolyma Tales</span>, if only
+					slightly. There are heroes like the sympathetic doctor
+					Mikhailovich, but perhaps most significant is the woman,
+					Lida, who Shalamov saves through a snap judgement while
+					managing the hospital admissions room. Lida is a secretary
+					who was being abused by her boss for refusing to sleep with
+					him. She attempts to gain entry to the hospital by not very
+					convincingly feigning illness. Shalamov sees through her
+					ruse, but admits her anyway. Her wretched boss does not have
+					the authority to contravene hospital decisions, and when
+					patients are released, they are always sent to a different
+					camp than the one they came from, so the admission can save
+					her from him permanently. Two years later, it is Lida, who
+					has found work in the records office, who Shalamov will ask
+					to surreptitiously remove the "T" (for Trotskyist)
+					certificate from his criminal file-- a black mark which
+					serves as a signal to any boss or guard for maxiumum
+					cruelty. This edit to his file aids greatly in his eventual
+					release. Shalmov "never said a word of thanks to Lida. She
+					didn't expect thanks, either. For a favor like that you
+					don't get thanked. Gratitude is not the right word." (
+					<span className="italic">Kolyma Tales</span>, "Lida")
 				</div>
 			</BodyText>
 		</>
