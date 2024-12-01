@@ -286,12 +286,19 @@ export default function Kolyma() {
 					his training and work in the hospital constitute a
 					lightening of tone for{" "}
 					<span className="italic"> Kolyma Tales</span>, if only
-					slightly. There are heroes like the sympathetic doctor
-					Mikhailovich, but perhaps most significant is the woman,
-					Lida, who Shalamov saves through a snap judgement while
-					managing the hospital admissions room. Lida is a secretary
-					who was being abused by her boss for refusing to sleep with
-					him. She attempts to gain entry to the hospital by not very
+					slightly. There are still unbelievable cruelties, such as in
+					"Aortic Aneurysm", where prisoner Katia Glovatskaya, made in her first
+					appearance to strip by a sexually predatory doctor, goes
+					untreated for an ultimately fatal heart condition because of
+					the political jockeying between camp and hospital administrators. But
+					there are heroes, like the sympathetic doctor Mikhailovich,
+					and the prisoner identified only as Lida.
+				</div>{" "}
+				<div className={paragraphBottomMargin}>
+					Shalamov saves Lida through a snap judgement while managing
+					the hospital admissions room. Lida is a secretary who was
+					being abused by her boss for refusing to sleep with him. She
+					attempts to gain entry to the hospital by not very
 					convincingly feigning illness. Shalamov sees through her
 					ruse, but admits her anyway. Her wretched boss does not have
 					the authority to contravene hospital decisions, and when
