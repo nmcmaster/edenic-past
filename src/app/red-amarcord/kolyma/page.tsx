@@ -107,7 +107,7 @@ export default function Kolyma() {
 					Revolutionary Party, another group that had fought against
 					the Tsarist monarchy but ultimately lost out to the
 					Bolsheviks in the post-revolutionary civil war. Academics
-					who were Trotskyists, or just insufficiently Stalinist. Any
+					who were Trotskyists, or just insufficiently Stalinist. Any Red Army
 					soldier taken prisoner by the Germans during World War 2.
 					Ordinary citizens denounced by their neighbors or
 					co-workers. Russians who worked abroad as, for example,
