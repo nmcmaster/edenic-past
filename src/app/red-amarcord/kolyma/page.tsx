@@ -107,8 +107,9 @@ export default function Kolyma() {
 					Revolutionary Party, another group that had fought against
 					the Tsarist monarchy but ultimately lost out to the
 					Bolsheviks in the post-revolutionary civil war. Academics
-					who were Trotskyists, or just insufficiently Stalinist.
-					Ordinary Russians denounced by their neighbors or
+					who were Trotskyists, or just insufficiently Stalinist. Any
+					soldier taken prisoner by the Germans during World War 2.
+					Ordinary citizens denounced by their neighbors or
 					co-workers. Russians who worked abroad as, for example,
 					engineers in western countries were often deported upon
 					their return.
@@ -287,12 +288,13 @@ export default function Kolyma() {
 					lightening of tone for{" "}
 					<span className="italic"> Kolyma Tales</span>, if only
 					slightly. There are still unbelievable cruelties, such as in
-					"Aortic Aneurysm", where prisoner Katia Glovatskaya, made in her first
-					appearance to strip by a sexually predatory doctor, goes
-					untreated for an ultimately fatal heart condition because of
-					the political jockeying between camp and hospital administrators. But
-					there are heroes, like the sympathetic doctor Mikhailovich,
-					and the prisoner identified only as Lida.
+					"Aortic Aneurysm", where prisoner Katia Glovatskaya, made in
+					her first appearance to strip by a sexually predatory
+					doctor, goes untreated for an ultimately fatal heart
+					condition because of the political jockeying between camp
+					and hospital administrators. But there are heroes, like the
+					sympathetic doctor Mikhailovich, and the prisoner identified
+					only as Lida.
 				</div>{" "}
 				<div className={paragraphBottomMargin}>
 					Shalamov saves Lida through a snap judgement while managing
