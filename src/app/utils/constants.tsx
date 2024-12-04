@@ -14,4 +14,4 @@ export const playerCss = "lg:w-1/3 w-full mx-auto";
 export const pullQuote =
 	"mx-auto text-left sm:text-center mb-7 sm:w-4/5 w-full px-3 sm:px-0";
 
-export const pullQuoteAuthor = "text-right text-sm pt-0.5";
+export const pullQuoteAuthor = "text-right indent-0 text-sm pt-0.5";

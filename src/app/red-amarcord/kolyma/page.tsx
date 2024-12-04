@@ -107,9 +107,9 @@ export default function Kolyma() {
 					Revolutionary Party, another group that had fought against
 					the Tsarist monarchy but ultimately lost out to the
 					Bolsheviks in the post-revolutionary civil war. Academics
-					who were Trotskyists, or just insufficiently Stalinist. Any Red Army
-					soldier taken prisoner by the Germans during World War 2.
-					Ordinary citizens denounced by their neighbors or
+					who were Trotskyists, or just insufficiently Stalinist. Any
+					Red Army soldier taken prisoner by the Germans during World
+					War 2. Ordinary citizens denounced by their neighbors or
 					co-workers. Russians who worked abroad as, for example,
 					engineers in western countries were often deported upon
 					their return.
@@ -207,12 +207,32 @@ export default function Kolyma() {
 					“Auschwitz without the ovens” and it’s true; there is no
 					organized mass slaughter of prisoners. Instead an
 					environment is created in which death has a thousand
-					entrances. For one you can be summarily shot by guards for
+					entrances. You could be summarily shot by guards for
 					stepping two paces out of a designated prisoner queue,
 					perhaps you did so to pick some berries because you are
-					starving. Guards or gangsters could beat a prisoner to death
-					(or so badly that death found the prisoner three weeks
+					starving. For insulting a guard-- that meant no talking back
+					in response to a beating, no gesture of respect deemed too
+					casual. Guards or gangsters could freely beat a prisoner to
+					death (or so badly that death found the prisoner three weeks
 					later, in a hospital bed) at the slightest provocation.
+				</div>
+				<div className={pullQuote}>
+					"The most frequent 'heading' under which a great number of
+					men were shot was 'for failing to fulfill the norm.' Whole
+					brigades were executed for this camp crime. It too was based
+					on theoretical considerations. At the time the state plan
+					was 'brought down' all over the country to every
+					machine-tool in all the factories and plants. In prisoner
+					country, in Kolyma, the plan was implemented down to each
+					pit face, each barrow, each pickax. The state plan was the
+					law! Failure to fulfill the state plan was a
+					counterrevolutionary crime. Anyone who failed to fulfill the
+					norm was off to the next world!"
+					<div className={pullQuoteAuthor}>
+						Varlam Shalamov,{" "}
+						<span className="italic">Kolyma Tales</span>, "How It
+						Began"
+					</div>
 				</div>
 				<div className={paragraphBottomMargin}>
 					I was haunted by the story “A Personal Quota”, which relates
@@ -222,11 +242,11 @@ export default function Kolyma() {
 					labor of gold mining as he is, he does not pull his own
 					weight. He is assigned a “personal quota”-- moved to a
 					special area he works alone, in which his progress is
-					explicitly measured by a guard .The first time I read it, I
+					explicitly measured by a guard. The first time I read it, I
 					was naive like Dugayev, until the story’s final paragraph.
 					Reading it twice, you see that the cigarette suddenly
 					offered by Dugayev’s bunkmate despite them “not being
-					friends”, the averted glances, and the sudden reverie of the
+					friends,” the averted glances, and the sudden reverie of the
 					foreman “to the evening star” are acknowledgments that the
 					personal quota is a death sentence: an impossible amount of
 					work for a starving and exhausted person to do in a day. The
@@ -239,7 +259,7 @@ export default function Kolyma() {
 					indeed.
 				</div>
 				<div className={paragraphBottomMargin}>
-					Or perhaps you’d be on the prisoner transport ship{" "}
+					Perhaps you’d be on the prisoner transport ship{" "}
 					<span className="italic"> Kim</span>, and either mutinied
 					with a majority of the prisoners or stood by– all the same,
 					the escort guards flooded the hold with freezing water no
@@ -314,8 +334,8 @@ export default function Kolyma() {
 					cruelty. This edit to his file aids greatly in his eventual
 					release. Shalmov "never said a word of thanks to Lida. She
 					didn't expect thanks, either. For a favor like that you
-					don't get thanked. Gratitude is not the right word." (
-					<span className="italic">Kolyma Tales</span>, "Lida")
+					don't get thanked. Gratitude is not the right word" (
+					<span className="italic">Kolyma Tales</span>, "Lida").
 				</div>
 			</BodyText>
 		</>
