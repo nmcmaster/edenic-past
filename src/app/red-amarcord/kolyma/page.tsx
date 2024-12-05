@@ -41,7 +41,8 @@ export default function Kolyma() {
 				textForward="Holodomor"
 			/>
 			<BodyText>
-				<div className="text-left sm:text-center sm:w-4/5 indent-0 sm:mx-auto px-1 mb-7">
+				{/* <div className="text-left sm:text-center sm:w-4/5 indent-0 sm:mx-auto px-1 mb-7"> */}
+				<div className={pullQuote}>
 					<p className="font-bold text-sm sm:text-lg sm:pb-2 pb-3">
 						WHAT I SAW AND UNDERSTOOD IN THE CAMPS
 					</p>
