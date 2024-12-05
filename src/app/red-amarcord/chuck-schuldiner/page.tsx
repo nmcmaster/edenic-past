@@ -27,7 +27,7 @@ export default function ChuckSchuldiner() {
 				)}
 			</div>
 			<Nav
-				hrefBackward="/the-connection-between-bruno-schulz-and-the-holodomor"
+				hrefBackward="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor"
 				hrefForward="/red-amarcord/litvinenko"
 				textBackward="Holodomor"
 				textForward="Litvinenko"

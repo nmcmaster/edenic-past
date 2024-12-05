@@ -19,7 +19,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={playfair.className}>
-				<main className="sm:w-4/5 mx-auto bg-red-700 min-h-screen px-3 sm:px-6">
+				<main className="sm:w-4/5 mx-auto bg-red-700 min-h-screen px-2 sm:px-6">
 					<div className="bg-stone-200 min-h-screen">
 						<h1 className="text-center sm:text-6xl text-4xl pt-6 pb-6">
 							<Link href="/">Edenic Past</Link>
