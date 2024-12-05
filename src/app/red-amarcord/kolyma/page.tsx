@@ -109,7 +109,7 @@ export default function Kolyma() {
 					Bolsheviks in the post-revolutionary civil war. Academics
 					who were Trotskyists, or just insufficiently Stalinist. Any
 					Red Army soldier taken prisoner by the Germans during World
-					War 2. Ordinary citizens denounced by their neighbors or
+					War II. Ordinary citizens denounced by their neighbors or
 					co-workers. Russians who worked abroad as, for example,
 					engineers in western countries were often deported upon
 					their return.
@@ -178,43 +178,44 @@ export default function Kolyma() {
 					<span className="italic">blatnoi yazyk</span>, the
 					generational slang of the hereditary criminal class in
 					Russia. The dictionary has been lost to time. The gangsters,
-					with their elongated pinky-finger nails and pewter crosses,
-					are vivid characters in{" "}
+					with their elongated pinky-finger nails and pewter cross
+					necklaces, are vivid characters in{" "}
 					<span className="italic">Kolyma Tales</span>. They contrast
 					sharply to the “politicals” convicted under Article 58, who
 					start out as essentially moral, though fatally naive to the
 					realities of the camps. Some gangsters are seen to have
-					little fiefdoms with hapless Article 58's tickling their
+					little fiefdoms, with hapless Article 58's tickling their
 					feet or reciting{" "}
 					<span className="italic">Les Miserables </span>
 					or Arthur Conan Doyle from memory for protection and an
 					extra slice of bread a day. Hundreds of tiny Caligulas.
 				</div>
 				<div className={paragraphBottomMargin}>
-					Shalamov survived several years of gold mining in Kolyma,
-					due to the grace of a series of near-misses, many of which
-					would later be recorded as stories. However, after nine
-					years, he had succumbed to the fate of most camp laborers:
-					he was a<span className="italic"> dokhodyaga</span>, a camp
-					term for the walking dead, those who, while still
-					technically breathing, had been starved and frozen past the
-					experience of what anyone could call life. Waiting for their
-					time. The closest English translation is the clunky “goner.”
+					Shalamov survived several years of gold mining in Kolyma due
+					to the grace of a series of near-misses, many of which he
+					would later record as stories. But after nine years his luck
+					had run out. He had succumbed to the fate of most camp
+					laborers: he was a
+					<span className="italic"> dokhodyaga</span>, a camp term for
+					the walking dead, those who, while still technically
+					breathing, had been starved and frozen past the experience
+					of what anyone could call life. Just waiting for their time.
+					The closest English translation is the clunky “goner.”
 				</div>
 				<div className={paragraphBottomMargin}>
 					The mechanisms of death in Kolyma are somewhat indirect.
 					Shalamov reports that prisoners refer to Kolyma as
 					“Auschwitz without the ovens” and it’s true; there is no
-					organized mass slaughter of prisoners. Instead an
+					organized mass slaughter of prisoners. Instead, an
 					environment is created in which death has a thousand
 					entrances. You could be summarily shot by guards for
 					stepping two paces out of a designated prisoner queue,
 					perhaps you did so to pick some berries because you are
-					starving. For insulting a guard-- that meant no talking back
-					in response to a beating, no gesture of respect deemed too
-					casual. Guards or gangsters could freely beat a prisoner to
-					death (or so badly that death found the prisoner three weeks
-					later, in a hospital bed) at the slightest provocation.
+					starving. Shot for insulting a guard-- that meant no talking
+					back in response to a beating. Guards or gangsters could
+					freely beat a prisoner to death (or so badly that death
+					found the prisoner three weeks later, in a hospital bed) at
+					the slightest provocation.
 				</div>
 				<div className={pullQuote}>
 					"The most frequent 'heading' under which a great number of
@@ -246,29 +247,29 @@ export default function Kolyma() {
 					was naive like Dugayev, until the story’s final paragraph.
 					Reading it twice, you see that the cigarette suddenly
 					offered by Dugayev’s bunkmate despite them “not being
-					friends,” the averted glances, and the sudden reverie of the
-					foreman “to the evening star” are acknowledgments that the
-					personal quota is a death sentence: an impossible amount of
-					work for a starving and exhausted person to do in a day. The
-					next night, after a brief session with an interrogator in
-					which he gives only his name and the sentence he is
-					currently serving, Dugayev is escorted by soldiers to a
-					ravine some distance from the camp cordoned off by a barbed
-					wire fence from which “at nights you could hear from this
-					point the rumbling of tractors.” Auschwitz without the ovens
-					indeed.
+					friends,” the averted glances of other prisoners, and the
+					sudden uncharacteristic reverie of the foreman “to the
+					evening star” are acknowledgments that the personal quota is
+					a death sentence: an impossible amount of work for a
+					starving and exhausted person to do in a day. The next
+					night, after a brief session with an interrogator in which
+					he gives only his name and the sentence he is currently
+					serving, Dugayev is escorted by soldiers to a ravine some
+					distance from the camp cordoned off by a barbed wire fence
+					from which “at nights you could hear from this point the
+					rumbling of tractors.” Auschwitz without the ovens indeed.
 				</div>
 				<div className={paragraphBottomMargin}>
 					Perhaps you’d be on the prisoner transport ship{" "}
 					<span className="italic"> Kim</span>, and either mutinied
 					with a majority of the prisoners or stood by– all the same,
 					the escort guards flooded the hold with freezing water no
-					one could escape. Nonetheless, all these deaths were still
-					somewhat exceptional. More plainly, a brutal calculus
-					emerges: sixteen-hour days of mining labor, not enough warm
-					clothing or blankets in freezing temperatures, and
-					starvation rations. The lack of Vitamin C in those rations
-					led to near universal scurvy as well.{" "}
+					one could escape. But all these deaths, acts of actual
+					murder, were still somewhat exceptional. More plainly, a
+					brutal calculus emerges: sixteen-hour days of mining labor,
+					not enough warm clothing or blankets in freezing
+					temperatures, and starvation rations. The lack of Vitamin C
+					in those rations led to near universal scurvy as well.
 				</div>
 				<div className={pullQuote}>
 					{" "}
@@ -286,26 +287,26 @@ export default function Kolyma() {
 					or two of the foreman’s personal friends."{" "}
 					<div className={pullQuoteAuthor}>
 						Varlam Shalamov,{" "}
-						<span className="italic">Kolyma Tales</span>, "The Tatar
-						Mullah and Clean Air"
+						<span className="italic">Kolyma Tales</span>, "Clean
+						Air"
 					</div>
 				</div>
 				<div className={paragraphBottomMargin}>
-					Shalamov the goner was 105 lbs, when he was admitted to a
-					camp hospital, in his ninth year of imprisonment. As
-					recorded in the story "Dominoes", he was saved by
-					Mikhailovich, a doctor who for unknown reasons with Shalamov
-					breaks the deadly bureacratic shuffling of starving
-					patients. "You don't need any treatment," Mikhailovich tells
-					Shalamov, "you need to be fed and washed. You need to stay
-					in bed and eat." This is the well-known case under
-					totalitarianism of a simple, true statement taking on a
-					profound, near-revolutionairy character. As Shalamov is
-					nursed back to health, he finds ways to become useful to the
-					hospital administration, and eventually is able to enroll in
-					a course for paramedic training. This stories dealing with
-					his training and work in the hospital constitute a
-					lightening of tone for{" "}
+					Shalamov the goner weighed 105 lbs when he was admitted to a
+					camp hospital in his ninth year of imprisonment. As recorded
+					in the story "Dominoes", he was saved by Andrei
+					Mikhailovich, a doctor who, for unknown reasons, in
+					Shalamov's case breaks the deadly bureacratic shuffling of
+					starving patients. "You don't need any treatment," Andrei
+					Mikhailovich tells Shalamov, "you need to be fed and washed.
+					You need to stay in bed and eat." This is an instance of a
+					simple, true statement taking on a profound,
+					near-revolutionary character under totalitarianism. As
+					Shalamov is nursed back to health, he finds ways to become
+					useful to the hospital administration, and eventually is
+					able to enroll in a course for paramedic training. The
+					stories dealing with his training and work in the hospital
+					constitute a lightening of tone for{" "}
 					<span className="italic"> Kolyma Tales</span>, if only
 					slightly. There are still unbelievable cruelties, such as in
 					"Aortic Aneurysm", where prisoner Katia Glovatskaya, made in
@@ -313,29 +314,28 @@ export default function Kolyma() {
 					doctor, goes untreated for an ultimately fatal heart
 					condition because of the political jockeying between camp
 					and hospital administrators. But there are heroes, like the
-					sympathetic doctor Mikhailovich, and the prisoner identified
-					only as Lida.
+					sympathetic doctor Andrei Mikhailovich, and the prisoner
+					identified only as Lida.
 				</div>{" "}
 				<div className={paragraphBottomMargin}>
 					Shalamov saves Lida through a snap judgement while managing
 					the hospital admissions room. Lida is a secretary who was
 					being abused by her boss for refusing to sleep with him. She
-					attempts to gain entry to the hospital by not very
-					convincingly feigning illness. Shalamov sees through her
-					ruse, but admits her anyway. Her wretched boss does not have
-					the authority to contravene hospital decisions, and when
-					patients are released, they are always sent to a different
-					camp than the one they came from, so the admission can save
-					her from him permanently. Two years later, it is Lida, who
-					has found work in the records office, who Shalamov will ask
-					to surreptitiously remove the "T" (for Trotskyist)
-					certificate from his criminal file-- a black mark which
-					serves as a signal to any boss or guard for maxiumum
-					cruelty. This edit to his file aids greatly in his eventual
-					release. Shalmov "never said a word of thanks to Lida. She
-					didn't expect thanks, either. For a favor like that you
-					don't get thanked. Gratitude is not the right word" (
-					<span className="italic">Kolyma Tales</span>, "Lida").
+					attempts to gain entry to the hospital by feigning illness.
+					Shalamov sees through her ruse, but admits her anyway. Her
+					wretched boss does not have the authority to contravene
+					hospital decisions, and when patients are released, they are
+					always sent to a different camp than the one they came from,
+					so the admission can save her from him permanently. Two
+					years later, it is Lida, now working in the prisoner records
+					office, whom Shalamov will ask to surreptitiously remove the
+					"T" (for Trotskyist) certificate from his criminal file-- a
+					black mark which serves as a signal to any boss or guard for
+					maxiumum cruelty. This edit to his file aids greatly in his
+					eventual release and probably saved his life. Shalmov "never said a word of thanks to
+					Lida. She didn't expect thanks, either. For a favor like
+					that you don't get thanked. Gratitude is not the right word"
+					(<span className="italic">Kolyma Tales</span>, "Lida").
 				</div>
 			</BodyText>
 		</>
