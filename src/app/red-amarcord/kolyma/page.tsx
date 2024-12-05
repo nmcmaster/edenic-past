@@ -1,6 +1,7 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
+import Next from "@/app/ui/Next";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -332,10 +333,12 @@ export default function Kolyma() {
 					"T" (for Trotskyist) certificate from his criminal file-- a
 					black mark which serves as a signal to any boss or guard for
 					maxiumum cruelty. This edit to his file aids greatly in his
-					eventual release and probably saved his life. Shalmov "never said a word of thanks to
-					Lida. She didn't expect thanks, either. For a favor like
-					that you don't get thanked. Gratitude is not the right word"
-					(<span className="italic">Kolyma Tales</span>, "Lida").
+					eventual release and probably saved his life. Shalmov "never
+					said a word of thanks to Lida. She didn't expect thanks,
+					either. For a favor like that you don't get thanked.
+					Gratitude is not the right word" (
+					<span className="italic">Kolyma Tales</span>, "Lida").{" "}
+					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
 			</BodyText>
 		</>

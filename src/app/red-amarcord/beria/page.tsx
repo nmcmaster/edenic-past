@@ -1,6 +1,7 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
+import Next from "@/app/ui/Next";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -8,7 +9,6 @@ import {
 	playerHeight,
 	pullQuote,
 } from "@/app/utils/constants";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -185,12 +185,7 @@ export default function Beria() {
 					songs with bass and fake drums and I can’t stop thinking
 					about Ryszard Kapuściński, traveling to Kolyma by train
 					while reading a book about Beria.
-					<Link
-						href="/red-amarcord/kolyma"
-						className="text-red-700 ml-2"
-					>
-						NEXT
-					</Link>
+					<Next href="/red-amarcord/kolyma" />
 				</p>
 			</BodyText>
 		</>
