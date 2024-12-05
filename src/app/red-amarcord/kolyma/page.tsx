@@ -23,7 +23,7 @@ export default function Kolyma() {
 				{isMounted && (
 					<iframe
 						style={iframeStyle}
-						className={"mx-auto"}
+						className={playerCss}
 						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=1630471468/transparent=true/"
 						seamless
 					>
