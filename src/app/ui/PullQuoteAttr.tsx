@@ -1,4 +1,4 @@
-export const PullQuoteAuthor = "text-right text-sm pt-2";
+export const PullQuoteAuthor = "text-right text-sm pt-1.5";
 
 const PullQuoteAttr = ({
 	author,

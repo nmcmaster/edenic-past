@@ -1,5 +1,6 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
+import Footnote from "@/app/ui/Footnote";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
@@ -14,12 +15,14 @@ import { useEffect, useState } from "react";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Beria() {
+	const [number] = useState("0");
 	const [isMounted, setIsMounted] = useState(false);
 	useEffect(() => {
 		setIsMounted(true);
 	}, []);
 	return (
 		<>
+			<Footnote song='beria' number={number} />
 			<div style={playerHeight}>
 				{isMounted && (
 					<iframe
