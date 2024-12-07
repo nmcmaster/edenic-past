@@ -185,7 +185,7 @@ export default function Beria() {
 					perfect. It’s a complete circuit. I am making these short
 					songs with bass and fake drums and I can’t stop thinking
 					about Ryszard Kapuściński, traveling to Kolyma by train
-					while reading a book about Beria.
+					while reading a book about Beria.{" "}
 					<Next href="/red-amarcord/kolyma" />
 				</p>
 			</BodyText>

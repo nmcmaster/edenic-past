@@ -218,6 +218,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					<PullQuoteAttr
 						author="Bruno Schulz"
 						title="The Cinnamon Shops"
+						subtitle="Cinnamon Shops"
 					/>
 				</div>
 				<div className={paragraphBottomMargin}>
