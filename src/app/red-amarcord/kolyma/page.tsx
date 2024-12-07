@@ -2,13 +2,13 @@
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
+import PullQuoteAttr, { PullQuoteAuthor } from "@/app/ui/PullQuoteAttr";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
 	playerCss,
 	playerHeight,
 	pullQuote,
-	pullQuoteAuthor,
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
@@ -71,7 +71,7 @@ export default function Kolyma() {
 						of a husband following his wife. But wives would come,
 						many of them.
 					</p>{" "}
-					<p className={pullQuoteAuthor}>Varlam Shalamov, 1961</p>
+					<p className={PullQuoteAuthor}>Varlam Shalamov, 1961</p>
 				</div>
 				<p className={paragraphBottomMargin}>
 					{" "}
@@ -91,10 +91,10 @@ export default function Kolyma() {
 					the same role vis-à-vis Dal’stroy as the concentration camp
 					Auschwitz/Birkenau did vis-à-vis IG Farben—it supplied the
 					slaves."
-					<div className={pullQuoteAuthor}>
-						Ryszard Kapuściński,{" "}
-						<span className="italic">Imperium</span>
-					</div>
+					<PullQuoteAttr
+						author="Ryszard Kapuściński"
+						title="Imperium"
+					/>
 				</div>
 				<div className={paragraphBottomMargin}>
 					The Kolyma mining operation’s development roughly coincides
@@ -126,11 +126,11 @@ export default function Kolyma() {
 					never saw any of her friends again. Marusia’s leg was broken
 					under interrogation, and when the bone mended she was sent
 					to Kolyma to serve a twenty-five-year term of imprisonment."
-					<div className={pullQuoteAuthor}>
-						Varlam Shalamov,{" "}
-						<span className="italic">Kolyma Tales</span>, "The
-						Necktie"
-					</div>
+					<PullQuoteAttr
+						author="Varlam Shalamov"
+						title="Kolyma Tales"
+						subtitle="The Necktie"
+					/>
 				</div>
 				<div className={paragraphBottomMargin}>
 					Varlam Shalamov was born in Vologda, a town in northern
@@ -230,11 +230,11 @@ export default function Kolyma() {
 					law! Failure to fulfill the state plan was a
 					counterrevolutionary crime. Anyone who failed to fulfill the
 					norm was off to the next world!"
-					<div className={pullQuoteAuthor}>
-						Varlam Shalamov,{" "}
-						<span className="italic">Kolyma Tales</span>, "How It
-						Began"
-					</div>
+					<PullQuoteAttr
+						author="Varlam Shalamov"
+						title="Kolyma Tales"
+						subtitle="How It Began"
+					/>
 				</div>
 				<div className={paragraphBottomMargin}>
 					I was haunted by the story “A Personal Quota”, which relates
@@ -286,11 +286,11 @@ export default function Kolyma() {
 					have, by the end of the season, not a single man left alive
 					from the start of the season, except for the foreman and one
 					or two of the foreman’s personal friends."{" "}
-					<div className={pullQuoteAuthor}>
-						Varlam Shalamov,{" "}
-						<span className="italic">Kolyma Tales</span>, "Clean
-						Air"
-					</div>
+					<PullQuoteAttr
+						author="Varlam Shalamov"
+						title="Kolyma Tales"
+						subtitle="Clean Air'"
+					/>
 				</div>
 				<div className={paragraphBottomMargin}>
 					Shalamov the goner weighed 105 lbs when he was admitted to a

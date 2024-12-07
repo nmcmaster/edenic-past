@@ -1,6 +1,7 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
+import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -35,7 +36,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 			<Nav
 				hrefBackward="/red-amarcord/kolyma"
 				hrefForward="/red-amarcord/chuck-schuldiner"
-				textBackward="Holodomor"
+				textBackward="Kolyma"
 				textForward="Chuck Schuldiner"
 			/>
 			<BodyText>
@@ -83,6 +84,10 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					“Bread! Bread!” The train crews were instructed to shut the
 					windows, draw the curtains. Entire families died—later,
 					entire villages."
+					<PullQuoteAttr
+						author="Ryszard Kapuściński"
+						title="Imperium"
+					/>
 				</div>
 				<div className={paragraphBottomMargin}>
 					Kapuściński gives this history in 1991 as he travels to
@@ -210,6 +215,10 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					binoculars, and, most especially, strange and rare books,
 					old folio volumes full of astonishing engravings and amazing
 					stories."
+					<PullQuoteAttr
+						author="Bruno Schulz"
+						title="The Cinnamon Shops"
+					/>
 				</div>
 				<div className={paragraphBottomMargin}>
 					The shops sell food, yes. But to me what they embody more
@@ -248,6 +257,10 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					mysterious currents, associations, connections, and
 					oppositions, that would lead him to begin his book with a
 					magnificent, stupefying vision of satiety?"
+					<PullQuoteAttr
+						author="Ryszard Kapuściński"
+						title="Imperium"
+					/>
 				</div>
 			</BodyText>
 		</>

@@ -2,6 +2,7 @@
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
+import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -163,10 +164,10 @@ export default function Beria() {
 						“Then they tried Beria—not for his crimes, but for
 						wanting to seize power. And they immediately shot him.”
 					</div>
-					<div className="text-right text-sm pt-0.5">
-						Ryszard Kapuściński,{" "}
-						<span className="italic">Imperium</span>
-					</div>
+					<PullQuoteAttr
+						author="Ryszard Kapuściński"
+						title="Imperium"
+					/>
 				</div>
 				<div className="border-b border-black mx-9 mb-3"></div>
 				<p className={paragraphBottomMargin}>
