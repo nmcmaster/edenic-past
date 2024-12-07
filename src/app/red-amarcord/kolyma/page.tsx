@@ -337,7 +337,7 @@ export default function Kolyma() {
 					said a word of thanks to Lida. She didn't expect thanks,
 					either. For a favor like that you don't get thanked.
 					Gratitude is not the right word" (
-					<span className="italic">Kolyma Tales</span>, "Lida").{" "}
+					<span className="italic">Kolyma Tales</span>, "Lida").
 					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
 			</BodyText>

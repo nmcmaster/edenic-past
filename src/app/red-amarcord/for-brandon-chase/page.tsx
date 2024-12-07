@@ -43,7 +43,7 @@ export default function ForBrandonChase() {
 				see. I would link to it or reproduce it here, but it has been
 				lost to the abyss of the internet. We used to sit around
 				listening to brutal death metal, so I like to think he would've
-				actually liked this track. <Next href="/red-amarcord/beria" />
+				actually liked this track.<Next href="/red-amarcord/beria" />
 			</BodyText>
 		</>
 	);
