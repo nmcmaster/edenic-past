@@ -1,6 +1,7 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Footnote from "@/app/ui/Footnote";
+import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import Nav from "@/app/ui/Nav";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import {
@@ -262,32 +263,72 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					by the belief that, despite their differences, each one has
 					the same approximate total "value" as the others. The
 					implicit belief that they have something to offer each other
-					other than dominance and war. The fact that Schulz was killed by a
-					soldier of a totalitarian, supremacist government gives this
-					interpretation a grim poetic logic. I don't wish to "but
-					actually..." Kapuściński's observation, only to add to it. I
-					think his original formulation (through the translation by
-					Klara Glowczewska) of the connection between Bruno Schulz
-					and the Holodomor is so beautiful I wish to reproduce it
-					here:
+					other than dominance and war. The fact that Schulz was
+					killed by a soldier of a totalitarian, supremacist
+					government gives this interpretation a grim poetic logic. I
+					don't wish to "but actually..." Kapuściński's observation,
+					only to add to it. I think his original formulation (through
+					the translation by Klara Glowczewska) of the connection
+					between Bruno Schulz and the Holodomor is so beautiful I
+					wish to reproduce it here:
 				</div>
 				<div className={pullQuote}>
 					{" "}
 					"Everything is so unclear, so unfathomable. Schulz wrote
-					<span className={paragraphBottomMargin}>
-						The Cinnamon Shops
-					</span>{" "}
-					during the most terrible year of the Great Famine in the
-					Ukraine, not far from Drohobych. Schulz most certainly knew
-					nothing of this great tragedy, hidden as it was from the
-					world. Yet what forces could have been at work here, what
-					mysterious currents, associations, connections, and
-					oppositions, that would lead him to begin his book with a
-					magnificent, stupefying vision of satiety?"
+					<span className="italic"> The Cinnamon Shops</span> during
+					the most terrible year of the Great Famine in the Ukraine,
+					not far from Drohobych. Schulz most certainly knew nothing
+					of this great tragedy, hidden as it was from the world. Yet
+					what forces could have been at work here, what mysterious
+					currents, associations, connections, and oppositions, that
+					would lead him to begin his book with a magnificent,
+					stupefying vision of satiety?"
 					<PullQuoteAttr
 						author="Ryszard Kapuściński"
 						title="Imperium"
 					/>
+				</div>
+				<HorizontalDivider />
+				<div className={paragraphBottomMargin}>
+					I almost always have the same dream. The objects, people,
+					and settings change, but the format is constant: I am in a
+					large multifaceted setting with lots of people, like a
+					college campus, convention center, a part of New York City I
+					know well on a warm summer night when everyone is out. I
+					have a seemingly simple task: to deliver a document or
+					message, to visit some bureuacratic office and register for
+					something, just one of the millions of errands we perform in
+					our lives and more or less instantly forget after
+					completion.{" "}
+				</div>
+				<div className={paragraphBottomMargin}>
+					But as I begin to walk to my destination, the setting
+					unfolds, revealing new rooms, torrents of people, some of
+					whom I know, some of whom are engaging me. The environment
+					disgorges room after room, plaza after plaza, obeying a
+					fractal logic-- I move forward, but the sense is I am
+					getting deeper into the ever-unfolding, now unfathomably
+					complex location, not any closer to my intended destination.
+					Side quests, side conversations proliferate. A door or
+					threshold leads to what seems like a total change of
+					setting, but this too eventually finds its place in the
+					origami honeycomb structure I have been attempting to
+					navigate.{" "}
+				</div>
+				<div className={paragraphBottomMargin}>
+					I hadn't read "Cinnamon Shops" (the individual story) since
+					I was 15 or so. Rereading it for this project, I was shocked
+					to see that it is an instance of this dream. The child
+					narrator tasked with retrieving his father's wallet while
+					the family is at a theatre waiting for the curtain to rise;
+					the total sensory overload and explosion of new settings as
+					he attempts to make his way back on what seemed to be a
+					simple path back home. Kapuściński writes of impossible
+					communication linking the suffering of millions to the pen
+					of an extraordinarily sensitive artist. The sort of thing we
+					might these days jocularly call "a glitch in the
+					simulation." What am I to make of reliving palette-swap
+					versions of Schulz's story night after night?
 				</div>
 			</BodyText>
 		</>

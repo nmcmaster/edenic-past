@@ -1,6 +1,7 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Footnote from "@/app/ui/Footnote";
+import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
@@ -194,7 +195,7 @@ export default function Beria() {
 						title="Imperium"
 					/>
 				</div>
-				<div className="border-b border-black mx-9 mb-3"></div>
+				<HorizontalDivider />
 				<p className={paragraphBottomMargin}>
 					{" "}
 					It is May 2020 and I am making short songs with bass and

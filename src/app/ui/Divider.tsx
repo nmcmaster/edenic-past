@@ -1,3 +1,3 @@
 export default function Divider() {
-    return <span className="px-1.5 text-gray-400">|</span>;
+    return <span className="px-1.5 text-stone-400">|</span>;
 }
