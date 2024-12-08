@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 
 const footnotes = [
 	"",
-	"Donald Rayfield, Kolyma Tales introduction",
+	"Donald Rayfield, introduction to the NYRB Classics edition of 'Kolyma Tales'.",
 	"Kolyma Tales, 'Lida'",
 ];
 
