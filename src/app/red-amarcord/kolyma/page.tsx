@@ -1,5 +1,6 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
+import Footnote from "@/app/ui/Footnote";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr, { PullQuoteAuthor } from "@/app/ui/PullQuoteAttr";
@@ -12,14 +13,28 @@ import {
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
+const footnotes = [
+	"",
+	"Donald Rayfield, Kolyma Tales introduction",
+	"Kolyma Tales, 'Lida'",
+];
+
 /* eslint-disable react/no-unescaped-entities */
 export default function Kolyma() {
+	const [footnote, setFootnote] = useState(false);
+	const [number, setNumber] = useState(0);
 	const [isMounted, setIsMounted] = useState(false);
 	useEffect(() => {
 		setIsMounted(true);
 	}, []);
 	return (
 		<>
+			<Footnote
+				isOpen={footnote}
+				text={footnotes[number]}
+				number={number}
+				setIsOpen={setFootnote}
+			/>
 			<div style={playerHeight}>
 				{isMounted && (
 					<iframe
@@ -71,7 +86,7 @@ export default function Kolyma() {
 						of a husband following his wife. But wives would come,
 						many of them.
 					</p>{" "}
-					<p className={PullQuoteAuthor}>Varlam Shalamov, 1961</p>
+					<PullQuoteAttr author="Varlam Shalamov" year="1961" />
 				</div>
 				<p className={paragraphBottomMargin}>
 					{" "}
@@ -139,8 +154,14 @@ export default function Kolyma() {
 					sympathized with the revolutionaries, particularly the
 					Trotskyist factions, even though, as the son of a priest, he
 					was excluded by the Communists from higher education.”
-					(Donald Rayfield,{" "}
-					<span className="italic">Kolyma Tales</span> introduction).
+					<sup
+						onClick={() => {
+							setNumber(1);
+							setFootnote(true);
+						}}
+					>
+						1{" "}
+					</sup>
 					Running in Trotskyist circles led to his public endorsement
 					of "Lenin’s Testament," a document which described Stalin as
 					unfit to be Secretary-General of the Communist Party. In
@@ -261,8 +282,8 @@ export default function Kolyma() {
 					rumbling of tractors.” Auschwitz without the ovens indeed.
 				</div>
 				<div className={paragraphBottomMargin}>
-					Perhaps you’d be on the prisoner transport ship{" "}
-					<span className="italic"> Kim</span>, and either mutinied
+					Or perhaps you’d be on the prisoner transport ship{" "}
+					<span className="italic"> Kim</span> and either mutinied
 					with a majority of the prisoners or stood by– all the same,
 					the escort guards flooded the hold with freezing water no
 					one could escape. But all these deaths, acts of actual
@@ -270,7 +291,10 @@ export default function Kolyma() {
 					brutal calculus emerges: sixteen-hour days of mining labor,
 					not enough warm clothing or blankets in freezing
 					temperatures, and starvation rations. The lack of Vitamin C
-					in those rations led to near universal scurvy as well.
+					in those rations led to near universal scurvy. Infectious
+					diseases flourished in the packed, unsanitary conditions. At
+					one point Shalamov was part of a group quarantined for
+					typhus.
 				</div>
 				<div className={pullQuote}>
 					{" "}
@@ -289,7 +313,7 @@ export default function Kolyma() {
 					<PullQuoteAttr
 						author="Varlam Shalamov"
 						title="Kolyma Tales"
-						subtitle="Clean Air'"
+						subtitle="Clean Air"
 					/>
 				</div>
 				<div className={paragraphBottomMargin}>
@@ -336,8 +360,16 @@ export default function Kolyma() {
 					eventual release and probably saved his life. Shalmov "never
 					said a word of thanks to Lida. She didn't expect thanks,
 					either. For a favor like that you don't get thanked.
-					Gratitude is not the right word" (
-					<span className="italic">Kolyma Tales</span>, "Lida").
+					Gratitude is not the right word."
+					<sup
+						onClick={() => {
+							setNumber(2);
+							setFootnote(true);
+						}}
+					>
+						{" "}
+						2{" "}
+					</sup>
 					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
 			</BodyText>

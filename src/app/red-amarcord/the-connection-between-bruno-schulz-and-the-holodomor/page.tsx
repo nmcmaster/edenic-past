@@ -1,5 +1,6 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
+import Footnote from "@/app/ui/Footnote";
 import Nav from "@/app/ui/Nav";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import {
@@ -11,14 +12,28 @@ import {
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
+const footnotes = [
+	"",
+	"Ryszard Kapuściński, 'Imperium'",
+	"'Cinnamon Shops' is both the name of the first collection of Schulz's stories and the title of an individual story within, though the same collection has also been published as 'The Street of Crocodiles'.",
+];
+
 /* eslint-disable react/no-unescaped-entities */
 export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
+	const [footnote, setFootnote] = useState(false);
+	const [number, setNumber] = useState(0);
 	const [isMounted, setIsMounted] = useState(false);
 	useEffect(() => {
 		setIsMounted(true);
 	}, []);
 	return (
 		<>
+			<Footnote
+				isOpen={footnote}
+				text={footnotes[number]}
+				number={number}
+				setIsOpen={setFootnote}
+			/>
 			<div style={playerHeight}>
 				{isMounted && (
 					<iframe
@@ -118,18 +133,26 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					Kolyma for years or even shot for stealing anything, even a
 					single blade of grain, from a kolkhoz. "Similar punishment
 					awaited the tractor driver whose tractor broke down, or the
-					kolkhoz member who lost a hoe or a shovel." (footnote
-					attribution) The conditions of starvation were such that
-					even occasional acts of charity, as when groups of
-					dissidents from nearby towns would bring shipments of bread,
-					could mean death. A starving person's body cannot always
-					handle a sudden influx of food, even something as simple as
-					a loaf of bread. Kamielowska recounts the recipients of
-					sudden charity gorging themselves and then dropping to the
-					floor, contorting in pain. Amid this horror her family was
-					still harrassed by the NKVD, which would conduct house
-					searches, pull up floorboards, dig up gardens. If they found
-					any food hidden, they would take it and imprison the owner.
+					kolkhoz member who lost a hoe or a shovel."
+					<sup
+						onClick={() => {
+							setNumber(1);
+							setFootnote(true);
+						}}
+					>
+						1
+					</sup>{" "}
+					The conditions of starvation were such that even occasional
+					acts of charity, as when groups of dissidents from nearby
+					towns would bring shipments of bread, could mean death. A
+					starving person's body cannot always handle a sudden influx
+					of food, even something as simple as a loaf of bread.
+					Kamielowska recounts the recipients of sudden charity
+					gorging themselves and then dropping to the floor,
+					contorting in pain. Amid this horror her family was still
+					harrassed by the NKVD, which would conduct house searches,
+					pull up floorboards, dig up gardens. If they found any food
+					hidden, they would take it and imprison the owner.
 					Kamielowska's husband, Józik, was imprisoned six times in
 					this way. Eventually Józik was involuntarily conscripted
 					into the Red Army to fight World War II. Bronisława was
@@ -184,12 +207,15 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					Kapuściński is certain Schulz knew nothing of the famine,
 					which was effectively hidden by the USSR at the time.
 					Quoting one of many psychedelically overabundant
-					descriptions of food from the story "August", (footnote:
-					'Cinnamon Shops' is both the name of the first collection of
-					Schulz's stories and the title of an individual story
-					within, though the same collection has also been published
-					under the title{" "}
-					<span className="italic"> The Street of Crocodiles</span>)
+					descriptions of food from the story "August",
+					<sup
+						onClick={() => {
+							setNumber(2);
+							setFootnote(true);
+						}}
+					>
+						2{" "}
+					</sup>
 					he speculates on some sort of psychic inverse connection:
 					that the suffering of millions starving not that far away
 					could have somehow influenced Schulz to have such
@@ -217,7 +243,6 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					stories."
 					<PullQuoteAttr
 						author="Bruno Schulz"
-						title="The Cinnamon Shops"
 						subtitle="Cinnamon Shops"
 					/>
 				</div>
@@ -232,18 +257,19 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					2024 is reified in a literal, actual hot war claiming
 					hundreds of lives every day, Schulz's story is a salvo
 					celebration of multicultural humanism. I am reminded of
-					Goethe's concept of "weltliteratur" (world literature), a
+					Goethe's ethos of "weltliteratur" (world literature): a
 					delight in the offerings of every world culture, undergirded
-					by the ethical assumption that each one has the same
-					approximate "value," as the others. That they have something
-					to offer each other other than dominance and war. That
-					Schulz was killed by a soldier of a totalitarian,
-					supremacist government gives this interpretation a grim
-					poetic logic. I don't wish to "but actually..."
-					Kapuściński's observation, only to add to it. I think his
-					original formulation (through the translation by Klara
-					Glowczewska) of the connection between Bruno Schulz and the
-					Holodomor is so beautiful I wish to reproduce it here:
+					by the belief that, despite their differences, each one has
+					the same approximate total "value" as the others. The
+					implicit belief that they have something to offer each other
+					other than dominance and war. The fact that Schulz was killed by a
+					soldier of a totalitarian, supremacist government gives this
+					interpretation a grim poetic logic. I don't wish to "but
+					actually..." Kapuściński's observation, only to add to it. I
+					think his original formulation (through the translation by
+					Klara Glowczewska) of the connection between Bruno Schulz
+					and the Holodomor is so beautiful I wish to reproduce it
+					here:
 				</div>
 				<div className={pullQuote}>
 					{" "}

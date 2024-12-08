@@ -1,14 +1,24 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
 	Description,
 	Dialog,
 	DialogPanel,
 	DialogTitle,
 } from "@headlessui/react";
+import { XCircleIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
-const Footnote = ({song, number}: {song: string, number: string}) => {
-	let [isOpen, setIsOpen] = useState(false);
-
+const Footnote = ({
+	isOpen,
+	text,
+    number,
+	setIsOpen,
+}: {
+	isOpen: boolean;
+	text: string;
+    number: number;
+	setIsOpen: (arg: boolean) => void;
+}) => {
 	return (
 		<>
 			<Dialog
@@ -16,18 +26,21 @@ const Footnote = ({song, number}: {song: string, number: string}) => {
 				onClose={() => setIsOpen(false)}
 				className="relative z-50"
 			>
-				<div className="fixed inset-0 flex w-screen items-center justify-center p-4">
-					<DialogPanel className="max-w-lg space-y-4 border bg-gray-100 rounded-2xl px-10 py-8">
-						<DialogTitle className="font-bold">{number}</DialogTitle>
-						<Description>
-							This will permanently deactivate your account
+				<div className="fixed inset-0 flex w-screen items-end justify-center">
+					<DialogPanel className="max-w-lg space-y-4 border bg-gray-100 rounded-t-2xl px-10 pt-6 pb-8 relative shadow-lg">
+						<DialogTitle className="font-bold text-xl">
+							{number.toString()}
+						</DialogTitle>
+						<Description className="">
+					{text}
 						</Description>
-						<p>
-							Are you sure you want to deactivate your account?
-							All of your data will be permanently removed.
-						</p>
 
-						<button onClick={() => setIsOpen(false)}>Close footnote</button>
+						<button
+							className="absolute top-2 right-7"
+							onClick={() => setIsOpen(false)}
+						>
+							<XCircleIcon className="w-6 text-red-600" />
+						</button>
 					</DialogPanel>
 				</div>
 			</Dialog>

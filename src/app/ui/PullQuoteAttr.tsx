@@ -4,16 +4,20 @@ const PullQuoteAttr = ({
 	author,
 	title,
 	subtitle,
+	year
 }: {
 	author: string;
-	title: string;
+	title?: string;
 	subtitle?: string;
+	year?: string;
 }) => {
-
 	return (
 		<div className={PullQuoteAuthor}>
-			{author}, <span className="italic">{title}</span>
+			{author}
+			{title && ","}
+			{title && <span className="italic"> {title}</span>}
 			{subtitle && `, "${subtitle}"`}
+			{year && `, ${year}`}
 		</div>
 	);
 };

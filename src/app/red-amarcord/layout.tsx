@@ -12,7 +12,7 @@ export default function RedAmarcordLayout({
 		<div className="text-center pb-5">
 			<h1 className="mb-3">Red Amardcord (2020)</h1>
 			{children}
-			<div className="pb-8 pt-8 sm:w-4/5 lg:text-lg text-sm mx-auto text-red-700">
+			<div className="pb-8 pt-4 sm:w-4/5 text-md mx-auto text-red-700">
 				<Link href={`${directory}for-brandon-chase`}>
 					For Brandon Chase
 				</Link>

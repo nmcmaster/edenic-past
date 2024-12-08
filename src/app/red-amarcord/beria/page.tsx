@@ -13,16 +13,26 @@ import {
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
+const footnotes = [
+	"",
+	"I think it's just the game of translation telephone from a title originally in Russian, which Kapuściński may have rendered in Polish, and then his translator into English, but I can find no record of the existence of this book.",
+];
 /* eslint-disable react/no-unescaped-entities */
 export default function Beria() {
-	const [number] = useState("0");
+	const [footnote, setFootnote] = useState(false);
+	const [number, setNumber] = useState(0);
 	const [isMounted, setIsMounted] = useState(false);
 	useEffect(() => {
 		setIsMounted(true);
 	}, []);
 	return (
 		<>
-			<Footnote song='beria' number={number} />
+			<Footnote
+				isOpen={footnote}
+				text={footnotes[number]}
+				number={number}
+				setIsOpen={setFootnote}
+			/>
 			<div style={playerHeight}>
 				{isMounted && (
 					<iframe
@@ -91,7 +101,6 @@ export default function Beria() {
 					Spanish) advisors from the Cuban special forces.
 				</p>{" "}
 				<p className={paragraphBottomMargin}>
-					{" "}
 					In <span className="italic">Imperium</span>, Kapuściński
 					turns his reporting to home. Well, sort of his home. The
 					basic point of the book is that when we think of
@@ -127,10 +136,11 @@ export default function Beria() {
 					to the railroad tracks and watched the dejected people being
 					offloaded from wagons and stuffed into train cars “using
 					knees and rifle butts so that there would be no room left
-					even for a pin.” These Poles are being deported to the labor
-					camps in Siberia or to the Caucasus, where they will face
-					poverty and hunger, separated from everything they have ever
-					known.
+					even for a pin.” These Poles are being deported to
+					collective farms faraway locations like the Caucasus, where
+					they will face poverty and hunger separated from everything
+					they have ever known. Or to a worse fate in forced labor
+					camps like the gold mine in Kolyma, Siberia.
 				</p>{" "}
 				<p className={paragraphBottomMargin}>
 					Who is directing these deportations? Lavrentiy Beria, the
@@ -142,15 +152,27 @@ export default function Beria() {
 					equally murderous overseer of the Kolyma labor camp,
 					executed “for obscure reasons.” He organized the Katyn
 					massacre of Polish officialdom. Beria dances throughout
-					<span className="italic">Imperium</span>, as Kapuściński
+					<span className="italic"> Imperium</span>, as Kapuściński
 					encounters evidence of his handiwork and that of the NKVD on
 					his travels.
 				</p>{" "}
 				<p className={paragraphBottomMargin}>
 					But the situation which Kapuściński describes in the most
 					detail is one in which Beria is a victim. He relates the
-					story told in a book he refers to as{" "}
-					<span className="italic">Beria: The End of the Career</span>
+					story told in a book he refers to as
+					<span className="italic">
+						{" "}
+						Beria: The End of the Career
+					</span>
+					<sup
+						onClick={() => {
+							setNumber(1);
+							setFootnote(true);
+						}}
+					>
+						{" "}
+						1
+					</sup>
 					. In 1953 Stalin had been dead for four months, and his
 					successor Khrushchev worried that Beria would kill him and
 					seize power himself. So he assembled a posse which cornered
