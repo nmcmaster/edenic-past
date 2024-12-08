@@ -3,6 +3,7 @@ import BodyText from "@/app/ui/BodyText";
 import Footnote from "@/app/ui/Footnote";
 import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import Nav from "@/app/ui/Nav";
+import Next from "@/app/ui/Next";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import {
 	iframeStyle,
@@ -328,7 +329,8 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					of an extraordinarily sensitive artist. The sort of thing we
 					might these days jocularly call "a glitch in the
 					simulation." What am I to make of reliving palette-swap
-					versions of Schulz's story night after night?
+					versions of Schulz's story night after night?{" "}
+					<Next href="/red-amarcord/chuck-schuldiner" />
 				</div>
 			</BodyText>
 		</>
