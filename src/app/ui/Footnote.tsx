@@ -39,7 +39,7 @@ const Footnote = ({
 							className="absolute top-2 right-7"
 							onClick={() => setIsOpen(false)}
 						>
-							<XCircleIcon className="w-6 text-red-600" />
+							<XCircleIcon className="w-6 text-red-700" />
 						</button>
 					</DialogPanel>
 				</div>
