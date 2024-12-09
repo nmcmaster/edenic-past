@@ -18,6 +18,7 @@ const footnotes = [
 	"",
 	"State-run organization that managed the gold mining operation in the Kolyma forced-labor camps.",
 	"Ryszard Kapuściński, 'Imperium'",
+	"No disrespect to Leonora Carrington.",
 	"'Cinnamon Shops' is both the name of the first collection of Schulz's stories and the title of an individual story within, though the same collection has also been published as 'The Street of Crocodiles'.",
 ];
 
@@ -118,34 +119,33 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					standing is the House of Political Instruction of the NKVD
 					cadre stationed at Kolyma. That erosion of history extends
 					to people; sitting at a bus stop with an elderly man,
-					Kapuscinski wonders if the man was torturer or victim. Of
-					course in the end both are victims.
+					Kapuscinski wonders if the man was torturer or victim.
+					Ultimately both are victims.
 				</div>
 				<div className={paragraphBottomMargin}>
 					In Ukraine he finds an oral history of the Holodomor.
 					Bronisława Kamielowska lived in the village of Butryn in the
 					'30s. She gave birth to 10 children, six of whom died of
-					hunger in their home. Bronisława recounts the escalation
-					that was the "Law of the Blade of Grain", written personally
-					by Stalin in 1932. Under this law one could be sentenced to
-					Kolyma for years or even shot for stealing anything, even a
-					single blade of grain, from a kolkhoz. "Similar punishment
-					awaited the tractor driver whose tractor broke down, or the
-					kolkhoz member who lost a hoe or a shovel."
+					hunger. Bronisława recounts the escalation that was the "Law
+					of the Blade of Grain", written personally by Stalin in
+					1932. Under this law one could be sentenced to Kolyma for
+					years or even shot for stealing anything, even a single
+					blade of grain, from a kolkhoz. "Similar punishment awaited
+					the tractor driver whose tractor broke down, or the kolkhoz
+					member who lost a hoe or a shovel."
 					<sup
 						onClick={() => {
 							setNumber(2);
 							setFootnote(true);
 						}}
 					>
-						1
+						2
 					</sup>{" "}
 					The conditions of starvation were such that even occasional
 					acts of charity, as when groups of dissidents from nearby
 					towns would bring shipments of bread, could mean death. A
 					starving person's body cannot always handle a sudden influx
-					of food, even something as simple as a loaf of bread.
-					Kamielowska recounts the recipients of sudden charity
+					of food. Kamielowska recounts the recipients of such charity
 					gorging themselves and then dropping to the floor,
 					contorting in pain. Amid this horror her family was still
 					harrassed by the NKVD, which would conduct house searches,
@@ -171,57 +171,65 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					the umbrella of surrelism and its offshoots. I felt as a
 					teenager, and still do today, that his work is better than
 					most of what came out of the primary French surrealist
-					scene.
-				</div>
-				<div className={paragraphBottomMargin}>
-					Schulz was born in 1892. At that time, Drohobych was in
-					Poland. Today, it is part of Ukraine. In 1941, it was
-					occupied by the Nazis as part of the Operation Barbarossa
-					offensive. Schulz, who was Jewish, was forced to relocate to
-					the Drohobych ghetto. He fell under the protection of a
-					Gestapo officer who admired his artwork, but this
-					association ultimately doomed him. In 1942 a rival Gestapo
-					officer shot Schulz dead in the streets of Drohobych. It was
-					revenge for Schulz's Gestapo patron having killed a Jewish
-					dentist under the rival's protection.
-				</div>
-				<div className={paragraphBottomMargin}>
-					The story "Cinnamon Shops" is arguably Schulz's most famous.
-					It recounts a nighttime walk taken by the narrator (a child
-					version of Schulz) through Drohobych. The narrator is on an
-					errand for his absentminded father, but nighttime Drohobych
-					expands and contracts in waves of kaleidoscopic, fractal
-					imagery that render the execution of any rational, prosaic
-					errand impossible. And the narrator is drawn to the district
-					with the Cinnamon Shops, exotic stores open only at this
-					phantasmagoric time of night. Kapuściński, visiting
-					Drohobych on the same trip in which he spoke to Bronisława
-					Kamielowska in Lvov about the Holodomor, attempted to visit
-					the Cinnamon Shops in person. His local guide laughs-- the
-					shops existed only in Schulz's imagination.
-				</div>
-				<div className={paragraphBottomMargin}>
-					As Drohobych was part of Poland during the Holodomor,
-					Kapuściński is certain Schulz knew nothing of the famine,
-					which was effectively hidden by the USSR at the time.
-					Quoting one of many psychedelically overabundant
-					descriptions of food from the story "August",
+					scene.{" "}
 					<sup
 						onClick={() => {
 							setNumber(3);
 							setFootnote(true);
 						}}
 					>
-						2{" "}
+						3
 					</sup>
-					he speculates on some sort of psychic inverse connection:
+				</div>
+				<div className={paragraphBottomMargin}>
+					Schulz was born in 1892, when Drohobych was part of Poland.
+					Today, it is in Ukraine. In 1941, it was occupied by the
+					Nazis as part of the Operation Barbarossa offensive. Schulz,
+					who was Jewish, was forced to relocate to the Drohobych
+					ghetto. He fell under the protection of a Gestapo officer
+					who admired his artwork, but this association ultimately
+					doomed him. In 1942 a rival Gestapo officer shot Schulz dead
+					in the streets of Drohobych. It was revenge for Schulz's
+					patron having killed a Jewish dentist under the rival's
+					protection.
+				</div>
+				<div className={paragraphBottomMargin}>
+					The story "Cinnamon Shops" recounts a nighttime walk taken
+					by the narrator (a child version of Schulz) through
+					Drohobych. He is on an errand for his absentminded father,
+					but his path through Drohobych expands and contracts in
+					waves of kaleidoscopic, fractal imagery that render the
+					execution of any rational task nearly impossible. The
+					narrator is drawn to the district with the cinnamon shops,
+					exotic stores open only at this phantasmagoric time of
+					night. Kapuściński, visiting Drohobych on the same trip in
+					which he spoke to Bronisława Kamielowska in Lvov about the
+					Holodomor, attempted to visit the cinnamon shops in person.
+					His local guide laughs-- the shops existed only in Schulz's
+					imagination.
+				</div>
+				<div className={paragraphBottomMargin}>
+					As Drohobych was part of Poland during the Holodomor,
+					Kapuściński is certain Schulz knew nothing of the famine,
+					which was effectively hidden by the USSR at the time.
+					Quoting a typically psychedelically overabundant description
+					of food from the story "August",
+					<sup
+						onClick={() => {
+							setNumber(4);
+							setFootnote(true);
+						}}
+					>
+						4{" "}
+					</sup>
+					he speculates on some sort of psychic inverse synchronicity:
 					that the suffering of millions starving not that far away
 					could have somehow influenced Schulz to have such
 					exaggerated visions of exotic plenty. The poetry of this
 					link is given support by the fact that Drohobych ultimately
 					did become part of Ukraine. Reviewing the Schulz stories
 					with this in mind, I saw things slightly differently. Here
-					is the description of the Cinnamon Shops from the eponymous
+					is the description of the cinnamon shops from the eponymous
 					story:
 				</div>
 				<div className={pullQuote}>
@@ -253,7 +261,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					fight over Ukraine's soul, whether it will have Western or
 					(neo)-Stalinist values, which as I write this in December
 					2024 is reified in a literal, actual hot war claiming
-					hundreds of lives every day, Schulz's story is a salvo
+					hundreds of lives every day, Schulz's story is a salvo in
 					celebration of multicultural humanism. I am reminded of
 					Goethe's ethos of "weltliteratur" (world literature): a
 					delight in the offerings of every world culture, undergirded
@@ -290,13 +298,12 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					I almost always have the same dream. The objects, people,
 					and settings change, but the format is constant: I am in a
 					large multifaceted setting with lots of people, like a
-					college campus, convention center, a part of New York City I
-					know well on a warm summer night when everyone is out. I
-					have a seemingly simple task: to deliver a document or
-					message, to visit some bureuacratic office and register for
-					something, just one of the millions of errands we perform in
-					our lives and more or less instantly forget after
-					completion.{" "}
+					college campus, convention center, a part of New York City
+					on a warm summer night when everyone is out. I have a
+					seemingly simple task: to deliver a document or message, to
+					visit some bureuacratic office and register for something,
+					just one of the thousands of errands we perform in our lives
+					and more or less instantly forget after completion.{" "}
 				</div>
 				<div className={paragraphBottomMargin}>
 					But as I begin to walk to my destination, the setting
@@ -306,8 +313,8 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					fractal logic-- I move forward, but the sense is I am
 					getting deeper into the ever-unfolding, now unfathomably
 					complex location, not any closer to my intended destination.
-					Side quests, side conversations proliferate. A door or
-					threshold leads to what seems like a total change of
+					Side quests and side conversations proliferate. A door or
+					threshold reveals what seems like a sudden total change of
 					setting, but this too eventually finds its place in the
 					origami honeycomb structure I have been attempting to
 					navigate.{" "}
@@ -322,10 +329,10 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					he attempts to make his way back on what seemed to be a
 					simple path back home. Kapuściński writes of impossible
 					communication linking the suffering of millions to the pen
-					of an extraordinarily sensitive artist. The sort of thing we
-					might these days jocularly call "a glitch in the
-					simulation." What am I to make of reliving palette-swap
-					versions of Schulz's story night after night?{" "}
+					of an extraordinarily sensitive artist. Synchronicity, the
+					sort of thing we might these days jocularly call "a glitch
+					in the simulation." What am I to make of reliving
+					palette-swap versions of Schulz's story night after night?{" "}
 					<Next href="/red-amarcord/chuck-schuldiner" />
 				</div>
 			</BodyText>
