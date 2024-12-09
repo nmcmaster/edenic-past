@@ -16,7 +16,7 @@ import { useEffect, useState } from "react";
 
 const footnotes = [
 	"",
-	"State-run organization that managed the gold mining operation in the Kolyma region forced-labor camps.",
+	"State-run organization that managed the gold mining operation in the Kolyma forced-labor camps.",
 	"Ryszard Kapuściński, 'Imperium'",
 	"'Cinnamon Shops' is both the name of the first collection of Schulz's stories and the title of an individual story within, though the same collection has also been published as 'The Street of Crocodiles'.",
 ];
@@ -174,7 +174,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					scene.
 				</div>
 				<div className={paragraphBottomMargin}>
-					Schulz was born in 1892. At that time, Drohobych was in of
+					Schulz was born in 1892. At that time, Drohobych was in
 					Poland. Today, it is part of Ukraine. In 1941, it was
 					occupied by the Nazis as part of the Operation Barbarossa
 					offensive. Schulz, who was Jewish, was forced to relocate to
