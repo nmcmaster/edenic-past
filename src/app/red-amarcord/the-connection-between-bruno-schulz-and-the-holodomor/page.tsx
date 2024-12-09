@@ -87,20 +87,6 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					majority of demographers and historians today agree that in
 					those years Stalin starved to death around ten million
 					people.
-				</div>
-				<div className={pullQuote}>
-					To crush the peasant opposition, the authorities closed
-					village shops, schools, and medical clinics. Peasants were
-					not allowed to leave their villages, were prevented from
-					entering the towns. Signs were placed along the roads near
-					the entrances to villages considered mutinous: STOPPING HERE
-					IS FORBIDDEN, SPEAKING WITH ANYONE IS FORBIDDEN! In villages
-					lying along railroad lines, peasants would rush toward the
-					tracks whenever a train was approaching. They would fall to
-					their knees, raise their arms in supplication, cry out:
-					“Bread! Bread!” The train crews were instructed to shut the
-					windows, draw the curtains. Entire families died—later,
-					entire villages."
 					<PullQuoteAttr
 						author="Ryszard Kapuściński"
 						title="Imperium"
