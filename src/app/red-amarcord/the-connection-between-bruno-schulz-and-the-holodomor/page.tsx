@@ -16,6 +16,7 @@ import { useEffect, useState } from "react";
 
 const footnotes = [
 	"",
+	"State-run organization that managed the gold mining operation in the Kolyma region forced-labor camps.",
 	"Ryszard Kapuściński, 'Imperium'",
 	"'Cinnamon Shops' is both the name of the first collection of Schulz's stories and the title of an individual story within, though the same collection has also been published as 'The Street of Crocodiles'.",
 ];
@@ -102,14 +103,23 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					history from the comfort of his desk. He has to go there,
 					where it happened, see something, if only traces. Traces are
 					all he finds in Kolyma, looking for evidence of that great
-					crime. The Dal’stroy headquarters, NKVD barracks, the prison
-					where interrogations took place have all been torn down by
-					the time Kapuścińksi visits in the early ‘90s. The only camp
-					building still standing is the House of Political
-					Instruction of the NKVD cadre stationed at Kolyma. That
-					erosion of history extends to people; sitting at a bus stop
-					with an elderly man, Kapuscinski wonders if the man was
-					torturer or victim. Of course in the end both are victims.
+					crime. The Dal’stroy{" "}
+					<sup
+						onClick={() => {
+							setNumber(1);
+							setFootnote(true);
+						}}
+					>
+						1
+					</sup>{" "}
+					headquarters, NKVD barracks, the prison where interrogations
+					took place have all been torn down by the time Kapuścińksi
+					visits in the early ‘90s. The only camp building still
+					standing is the House of Political Instruction of the NKVD
+					cadre stationed at Kolyma. That erosion of history extends
+					to people; sitting at a bus stop with an elderly man,
+					Kapuscinski wonders if the man was torturer or victim. Of
+					course in the end both are victims.
 				</div>
 				<div className={paragraphBottomMargin}>
 					In Ukraine he finds an oral history of the Holodomor.
@@ -124,7 +134,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					kolkhoz member who lost a hoe or a shovel."
 					<sup
 						onClick={() => {
-							setNumber(1);
+							setNumber(2);
 							setFootnote(true);
 						}}
 					>
@@ -198,7 +208,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					descriptions of food from the story "August",
 					<sup
 						onClick={() => {
-							setNumber(2);
+							setNumber(3);
 							setFootnote(true);
 						}}
 					>
