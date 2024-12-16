@@ -332,7 +332,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					of an extraordinarily sensitive artist. Synchronicity, the
 					sort of thing we might these days jocularly call "a glitch
 					in the simulation." What am I to make of reliving
-					palette-swap versions of Schulz's story night after night?{" "}
+					palette-swap versions of Schulz's story night after night?
 					<Next href="/red-amarcord/chuck-schuldiner" />
 				</div>
 			</BodyText>

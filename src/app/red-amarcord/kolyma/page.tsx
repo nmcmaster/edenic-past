@@ -368,7 +368,7 @@ export default function Kolyma() {
 						}}
 					>
 						{" "}
-						2{" "}
+						2
 					</sup>
 					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
