@@ -2,6 +2,7 @@
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
+import Title from "@/app/ui/Title";
 import { iframeStyle, playerCss, playerHeight } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
 
@@ -27,6 +28,8 @@ export default function ForBrandonChase() {
 					</iframe>
 				)}
 			</div>
+			<Title title="For Brandon Chase" />
+
 			<Nav
 				hrefBackward="/red-amarcord"
 				hrefForward="/red-amarcord/beria"
@@ -43,7 +46,8 @@ export default function ForBrandonChase() {
 				see. I would link to it or reproduce it here, but it has been
 				lost to the abyss of the internet. We used to sit around
 				listening to brutal death metal, so I like to think he would've
-				actually liked this track.<Next href="/red-amarcord/beria" />
+				actually liked this track.
+				<Next href="/red-amarcord/beria" />
 			</BodyText>
 		</>
 	);

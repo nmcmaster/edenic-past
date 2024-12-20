@@ -5,6 +5,7 @@ import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
+import Title from "@/app/ui/Title";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -48,6 +49,7 @@ export default function Beria() {
 					</iframe>
 				)}
 			</div>
+			<Title title="Beria" />
 			<Nav
 				hrefBackward="/red-amarcord/for-brandon-chase"
 				hrefForward="/red-amarcord/kolyma"

@@ -5,6 +5,7 @@ import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
+import Title from "@/app/ui/Title";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -52,6 +53,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					</iframe>
 				)}
 			</div>
+			<Title title="The Connection Between Bruno Schulz and the Holodomor" />
 			<Nav
 				hrefBackward="/red-amarcord/kolyma"
 				hrefForward="/red-amarcord/chuck-schuldiner"

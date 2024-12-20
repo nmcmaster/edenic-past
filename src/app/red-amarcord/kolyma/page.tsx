@@ -4,6 +4,7 @@ import Footnote from "@/app/ui/Footnote";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr, { PullQuoteAuthor } from "@/app/ui/PullQuoteAttr";
+import Title from "@/app/ui/Title";
 import {
 	iframeStyle,
 	paragraphBottomMargin,
@@ -16,6 +17,7 @@ import { useEffect, useState } from "react";
 const footnotes = [
 	"",
 	"Donald Rayfield, introduction to the NYRB Classics edition of 'Kolyma Tales'.",
+	"Kolyma Tales, 'The Procurator of Judea'",
 	"Kolyma Tales, 'Lida'",
 ];
 
@@ -49,6 +51,7 @@ export default function Kolyma() {
 					</iframe>
 				)}
 			</div>
+			<Title title="Kolyma" />
 			<Nav
 				hrefBackward="/red-amarcord/beria"
 				hrefForward="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor"
@@ -282,19 +285,28 @@ export default function Kolyma() {
 					rumbling of tractors.” Auschwitz without the ovens indeed.
 				</div>
 				<div className={paragraphBottomMargin}>
-					Or perhaps you’d be on the prisoner transport ship{" "}
+					If not shot outright for failing to fulfil the norm, perhaps
+					you’d be on the prisoner transport ship{" "}
 					<span className="italic"> Kim</span> and either mutinied
-					with a majority of the prisoners or stood by– all the same,
-					the escort guards flooded the hold with freezing water no
-					one could escape. But all these deaths, acts of actual
-					murder, were still somewhat exceptional. More plainly, a
-					brutal calculus emerges: sixteen-hour days of mining labor,
-					not enough warm clothing or blankets in freezing
-					temperatures, and starvation rations. The lack of Vitamin C
-					in those rations led to near universal scurvy. Infectious
-					diseases flourished in the packed, unsanitary conditions. At
-					one point Shalamov was part of a group quarantined for
-					typhus.
+					with a majority of the prisoners or merely stood by– all the
+					same, the escort guards flooded the hold with freezing water
+					no one could escape.
+					<sup
+						onClick={() => {
+							setNumber(2);
+							setFootnote(true);
+						}}
+					>
+						2
+					</sup>{" "}
+					But all these deaths, acts of direct murder, were still
+					somewhat exceptional. More plainly, a brutal calculus
+					emerges: sixteen-hour days of mining labor, not enough warm
+					clothing or blankets in freezing temperatures, and
+					starvation rations. The lack of Vitamin C in those rations
+					led to near universal scurvy. Infectious diseases flourished
+					in the packed, unsanitary conditions. At one point Shalamov
+					was part of a large group quarantined for typhus.
 				</div>
 				<div className={pullQuote}>
 					{" "}
@@ -363,12 +375,12 @@ export default function Kolyma() {
 					Gratitude is not the right word."
 					<sup
 						onClick={() => {
-							setNumber(2);
+							setNumber(3);
 							setFootnote(true);
 						}}
 					>
 						{" "}
-						2
+						3
 					</sup>
 					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
