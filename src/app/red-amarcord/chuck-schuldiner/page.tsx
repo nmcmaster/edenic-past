@@ -68,7 +68,7 @@ export default function ChuckSchuldiner() {
 				</div>
 				<div className={paragraphBottomMargin}>
 					{" "}
-					Nonetheless a dark streak runs through Schuldiner’s history.
+					But a dark streak runs through Schuldiner’s history.
 					The documentary{" "}
 					<span className="italic">Death by Metal</span> (2016)
 					catalogs several instances of tours abruptly cancelled,
@@ -87,7 +87,7 @@ export default function ChuckSchuldiner() {
 					There is a musical argument to be made for the replacement
 					of band members almost every album, one made by Albert
 					Mudrian of <span className="italic">Decibel</span> magazine
-					in <span className="italic">Death by Metal</span>, that
+					in <span className="italic">Death by Metal</span>: that
 					Chuck was artistically moving quite quickly, changing the
 					concept of Death so rapidly that the members he’d recruited
 					for one iteration weren’t suited musically to the next. This
@@ -105,8 +105,8 @@ export default function ChuckSchuldiner() {
 				<div className={paragraphBottomMargin}>
 					{" "}
 					In interviews Chuck frequently spoke of not wanting to be
-					limited by the early gore-oriented death metal sound that
-					Death had become famous for early on; in interview he
+					limited by the gore-oriented death metal sound that
+					Death had become famous for early on; he
 					expresses the desire to grow, to not be “put in a box” again and
 					again. Certainly, the early innovation of death metal was
 					very quickly codified into a formula; fans and labels
