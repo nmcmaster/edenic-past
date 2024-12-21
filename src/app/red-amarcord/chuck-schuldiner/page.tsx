@@ -133,7 +133,7 @@ export default function ChuckSchuldiner() {
 					festooned with cats to a TV interview; most of these also
 					read as somewhat effeminate. Explicit homoeroticism was a
 					huge no-no in metal during his lifetime. I caught the tail
-					end of this era– I’d say the community’s default attitude
+					end of this era– I’d say the metal community’s default attitude
 					towards LGBQT turned from default negative to default
 					acceptance in the early 2010’s, following a larger movement
 					in American culture. I used to worry in the early days
