@@ -9,8 +9,14 @@ import {
 	playerHeight,
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
-
+import type { Metadata } from "next";
 /* eslint-disable react/no-unescaped-entities */
+export const metadata: Metadata = {
+	title: "Edenic Past - Chuck Schuldiner",
+	description:
+		"But a dark streak runs through Schuldiner’s history. The documentary 'Death by Metal' catalogs several instances of tours abruptly cancelled, managers and bandmates suddenly fired...",
+};
+
 export default function ChuckSchuldiner() {
 	const [isMounted, setIsMounted] = useState(false);
 	useEffect(() => {
@@ -68,17 +74,18 @@ export default function ChuckSchuldiner() {
 				</div>
 				<div className={paragraphBottomMargin}>
 					{" "}
-					But a dark streak runs through Schuldiner’s history.
-					The documentary{" "}
-					<span className="italic">Death by Metal</span> (2016)
-					catalogs several instances of tours abruptly cancelled,
-					managers and bandmates abruptly fired. In 1990 Chuck
-					personally refused to participate in a European tour with
-					German Thrash act Kreator; because of contractual
+					But a dark streak runs through Schuldiner’s history. The
+					documentary <span className="italic">
+						Death by Metal
+					</span>{" "}
+					(2016) catalogs several instances of tours abruptly
+					cancelled, managers and bandmates suddenly fired. In 1990
+					Chuck personally refused to participate in a European tour
+					with German Thrash act Kreator; because of contractual
 					obligations, drummer Bill Andrews and bassist Terry Butler
 					did the tour anyway as Death, with two Kreator roadies
-					filling out the band. Drummer Sean Reinert recalls learning he was
-					no longer part of the Death lineup when bassist Steve
+					filling out the band. Drummer Sean Reinert recalls learning
+					he was no longer part of the Death lineup when bassist Steve
 					DiGiorgio called him from a rehearsal informing him that
 					Gene Hoglan was there playing drums with the band.
 				</div>{" "}
@@ -105,23 +112,23 @@ export default function ChuckSchuldiner() {
 				<div className={paragraphBottomMargin}>
 					{" "}
 					In interviews Chuck frequently spoke of not wanting to be
-					limited by the gore-oriented death metal sound that
-					Death had become famous for early on; he
-					expresses the desire to grow, to not be “put in a box” again and
-					again. Certainly, the early innovation of death metal was
-					very quickly codified into a formula; fans and labels
-					would bristle at deviation from it. Such pressures on a
-					young and restlessly creative musician would feel quite
-					constraining. But some of it seems to have been purely
-					personal factors. Steve DiGiorgio says in <span className="italic">Death by Metal</span>{" "}
-					that Chuck was “wound tighter than most people,” and in fact
-					he and Gene Hoglan, part of the small group of musicians to
-					play on two consecutive Death albums, seem to have achieved
-					that mostly by virtue of being good at calming Chuck down.
+					limited by the gore-oriented death metal sound that Death
+					had become famous for early on; he expresses the desire to
+					grow, to not be “put in a box” again and again. Certainly,
+					the early innovation of death metal was very quickly
+					codified into a formula; fans and labels would bristle at
+					deviation from it. Such pressures on a young and restlessly
+					creative musician would feel quite constraining. But some of
+					it seems to have been purely personal factors. Steve
+					DiGiorgio says in{" "}
+					<span className="italic">Death by Metal</span> that Chuck
+					was “wound tighter than most people,” and in fact he and
+					Gene Hoglan, part of the small group of musicians to play on
+					two consecutive Death albums, seem to have achieved that
+					mostly by virtue of being good at calming Chuck down.
 					Sensing he was near the snapping point that, left unchecked
 					by previous band members, had led to the blowups in which
-					tours were abandoned and musicians or managers
-					fired.
+					tours were abandoned and musicians or managers fired.
 				</div>{" "}
 				<div className={paragraphBottomMargin}>
 					{" "}
@@ -133,16 +140,16 @@ export default function ChuckSchuldiner() {
 					festooned with cats to a TV interview; most of these also
 					read as somewhat effeminate. Explicit homoeroticism was a
 					huge no-no in metal during his lifetime. I caught the tail
-					end of this era– I’d say the metal community’s default attitude
-					towards LGBQT turned from default negative to default
-					acceptance in the early 2010’s, following a larger movement
-					in American culture. I used to worry in the early days
-					of my musical journey about being outed on some message
-					board. If he was indeed queer, being forced to be closeted either by his
-					own mind or social pressures of his community would
-					 add another layer of tension to his psyche. It’s
-					impossible to know, and some might say it’s irresponsible for
-					me to speculate like this, but to me it’s just one more
+					end of this era– I’d say the metal community’s default
+					attitude towards LGBQT turned from default negative to
+					default acceptance in the early 2010’s, following a larger
+					movement in American culture. I used to worry in the early
+					days of my musical journey about being outed on some message
+					board. If he was indeed queer, being forced to be closeted
+					either by his own mind or social pressures of his community
+					would add another layer of tension to his psyche. It’s
+					impossible to know, and some might say it’s irresponsible
+					for me to speculate like this, but to me it’s just one more
 					possible factor contributing to the psychology of this
 					brilliant, complicated artist who burned so brightly but not
 					for very long. Hail Chuck.
