@@ -120,7 +120,7 @@ export default function ChuckSchuldiner() {
 					that mostly by virtue of being good at calming Chuck down.
 					Sensing he was near the snapping point that, left unchecked
 					by previous band members, had led to the blowups in which
-					tours were abruptly abandoned and musicians or managers
+					tours were abandoned and musicians or managers
 					fired.
 				</div>{" "}
 				<div className={paragraphBottomMargin}>
