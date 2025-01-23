@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 	title: "Edenic Past",
 	description:
 		"The meaning behind the songs by brutal death metal band Edenic Past",
+		
 };
 
 export default function RootLayout({

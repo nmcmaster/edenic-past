@@ -1,5 +1,5 @@
-
 import BodyText from "@/app/ui/BodyText";
+import FootnoteWrapper from "@/app/ui/FootnoteWrapper";
 import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
@@ -12,7 +12,6 @@ import {
 	paragraphBottomMargin,
 	pullQuote,
 } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
 
 const footnotes = [
 	"",
@@ -24,20 +23,8 @@ const footnotes = [
 
 /* eslint-disable react/no-unescaped-entities */
 export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
-	const [footnote, setFootnote] = useState(false);
-	const [number, setNumber] = useState(0);
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
 	return (
 		<>
-			{/* <Footnote
-				isOpen={footnote}
-				text={footnotes[number]}
-				number={number}
-				setIsOpen={setFootnote}
-			/> */}
 			<MediaPlayer
 				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=2157112391/transparent=true/"
 				albumHref={albumHrefRedAmarcord}
@@ -96,18 +83,11 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					history from the comfort of his desk. He has to go there,
 					where it happened, see something, if only traces. Traces are
 					all he finds in Kolyma, looking for evidence of that great
-					crime. The Dal’stroy{" "}
-					<sup
-						onClick={() => {
-							setNumber(1);
-							setFootnote(true);
-						}}
-					>
-						1
-					</sup>{" "}
+					crime. The Dal'stroy{" "}
+					<FootnoteWrapper text={footnotes[1]} number={1}>1</FootnoteWrapper>{" "}
 					headquarters, NKVD barracks, the prison where interrogations
 					took place have all been torn down by the time Kapuścińksi
-					visits in the early ‘90s. The only camp building still
+					visits in the early '90s. The only camp building still
 					standing is the House of Political Instruction of the NKVD
 					cadre stationed at Kolyma. That erosion of history extends
 					to people; sitting at a bus stop with an elderly man,
@@ -125,14 +105,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					blade of grain, from a kolkhoz. "Similar punishment awaited
 					the tractor driver whose tractor broke down, or the kolkhoz
 					member who lost a hoe or a shovel."
-					<sup
-						onClick={() => {
-							setNumber(2);
-							setFootnote(true);
-						}}
-					>
-						2
-					</sup>{" "}
+					<FootnoteWrapper text={footnotes[2]} number={2}>2</FootnoteWrapper>{" "}
 					The conditions of starvation were such that even occasional
 					acts of charity, as when groups of dissidents from nearby
 					towns would bring shipments of bread, could mean death. A
@@ -164,14 +137,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					teenager, and still do today, that his work is better than
 					most of what came out of the primary French surrealist
 					scene.{" "}
-					<sup
-						onClick={() => {
-							setNumber(3);
-							setFootnote(true);
-						}}
-					>
-						3
-					</sup>
+					<FootnoteWrapper text={footnotes[3]} number={3}>3</FootnoteWrapper>
 				</div>
 				<div className={paragraphBottomMargin}>
 					Schulz was born in 1892, when Drohobych was part of Poland.
@@ -206,14 +172,7 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					which was effectively hidden by the USSR at the time.
 					Quoting a typically psychedelically overabundant description
 					of food from the story "August",
-					<sup
-						onClick={() => {
-							setNumber(4);
-							setFootnote(true);
-						}}
-					>
-						4{" "}
-					</sup>
+					<FootnoteWrapper text={footnotes[4]} number={4}>4</FootnoteWrapper>
 					he speculates on some sort of psychic inverse synchronicity:
 					that the suffering of millions starving not that far away
 					could have somehow influenced Schulz to have such

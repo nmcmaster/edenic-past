@@ -1,6 +1,5 @@
-"use client";
 import BodyText from "@/app/ui/BodyText";
-import Footnote from "@/app/ui/Footnote";
+import FootnoteWrapper from "@/app/ui/FootnoteWrapper";
 import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
@@ -11,7 +10,6 @@ import {
 	paragraphBottomMargin,
 	pullQuote,
 } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
 
 const footnotes = [
 	"",
@@ -22,17 +20,8 @@ const footnotes = [
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Kolyma() {
-	const [footnote, setFootnote] = useState(false); // break into component
-	const [number, setNumber] = useState(0);
-	
 	return (
 		<>
-			<Footnote
-				isOpen={footnote}
-				text={footnotes[number]}
-				number={number}
-				setIsOpen={setFootnote}
-			/>
 			<MediaPlayer
 				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=1630471468/transparent=true/"
 				albumHref={albumHrefRedAmarcord}
@@ -89,11 +78,11 @@ export default function Kolyma() {
 				</p>
 				<div className={pullQuote}>
 					"In the frozen desert of Kolyma, people are needed to work.
-					That is why, simultaneously with Dal’stroy [the construction
+					That is why, simultaneously with Dal'stroy [the construction
 					organization overseeing the gold mining operation], Moscow
 					calls into being here a directorate of the Northeastern
 					Camps of Correctional Labor (USVITLag). USVITLag fulfilled
-					the same role vis-à-vis Dal’stroy as the concentration camp
+					the same role vis-à-vis Dal'stroy as the concentration camp
 					Auschwitz/Birkenau did vis-à-vis IG Farben—it supplied the
 					slaves."
 					<PullQuoteAttr
@@ -102,8 +91,8 @@ export default function Kolyma() {
 					/>
 				</div>
 				<div className={paragraphBottomMargin}>
-					The Kolyma mining operation’s development roughly coincides
-					with the years of Stalin’s Great Terror. Eventually there
+					The Kolyma mining operation's development roughly coincides
+					with the years of Stalin's Great Terror. Eventually there
 					are 160 prison mining camps in the Kolyma area. Two
 					unrelated aims, the mining of gold and the liquidation of
 					undesirables, achieved a terrible symbiosis. Who were these
@@ -128,7 +117,7 @@ export default function Kolyma() {
 					consulate, and in 1939 received a Russian entry visa.
 					Marusia, her brother, and their fellow returnees were
 					arrested in Vladivostok; Marusia was taken to Moscow and
-					never saw any of her friends again. Marusia’s leg was broken
+					never saw any of her friends again. Marusia's leg was broken
 					under interrogation, and when the bone mended she was sent
 					to Kolyma to serve a twenty-five-year term of imprisonment."
 					<PullQuoteAttr
@@ -140,20 +129,13 @@ export default function Kolyma() {
 				<div className={paragraphBottomMargin}>
 					Varlam Shalamov was born in Vologda, a town in northern
 					Russia, in 1907. Volgoda saw terrible violence in the
-					revolution and following civil war, but “Shalamov
+					revolution and following civil war, but "Shalamov
 					sympathized with the revolutionaries, particularly the
 					Trotskyist factions, even though, as the son of a priest, he
-					was excluded by the Communists from higher education.”
-					<sup
-						onClick={() => {
-							setNumber(1);
-							setFootnote(true);
-						}}
-					>
-						1{" "}
-					</sup>
+					was excluded by the Communists from higher education."
+					<FootnoteWrapper text={footnotes[1]} number={1}>1</FootnoteWrapper>
 					Running in Trotskyist circles led to his public endorsement
-					of "Lenin’s Testament," a document which described Stalin as
+					of "Lenin's Testament," a document which described Stalin as
 					unfit to be Secretary-General of the Communist Party. In
 					1929 he was arrested for that and spent three years at a
 					chemical plant in the northern Ural mountains, but he was
@@ -161,9 +143,9 @@ export default function Kolyma() {
 				</div>
 				<div className={paragraphBottomMargin}>
 					In the Urals he met his first wife, Galina Gudz. They
-					returned to Moscow after Shalamov’s 1931 release and started
+					returned to Moscow after Shalamov's 1931 release and started
 					a family. Despite being a convicted Trotskyist, Shalamov was
-					able to work in Moscow relatively unmolested. Galina’s
+					able to work in Moscow relatively unmolested. Galina's
 					brother, Boris Gudz, however, was an agent of the secret
 					police (the OGPU, until it morphed into the NKVD in 1934)
 					and worried about the political taint on his brother in law.
@@ -171,7 +153,7 @@ export default function Kolyma() {
 					seemingly in an attempt to get ahead of the problem. But all
 					this letter did was bring to the attention of the NKVD this
 					Trotskyist who had been insufficiently punished. He was
-					arrested again in 1937 (the most brutal year of Stalin’s
+					arrested again in 1937 (the most brutal year of Stalin's
 					Great Terror), given a new sentence of counterrevolutionary
 					Trotskyist activity, and sent to Kolyma. Galina and her
 					sister were exiled to collective farms in Turkmenistan.
@@ -184,7 +166,7 @@ export default function Kolyma() {
 				<div className={paragraphBottomMargin}>
 					In the 1932-1937 period between his arrests, Shalamov saw
 					some of his essays and articles published, including his
-					first short story “The Three Deaths of Dr. Austin” (1936).
+					first short story "The Three Deaths of Dr. Austin" (1936).
 					Once in Kolyma, he wrote only one work of prose, a 600-page
 					dictionary of <span className="italic">fenia</span> or{" "}
 					<span className="italic">blatnoi yazyk</span>, the
@@ -193,7 +175,7 @@ export default function Kolyma() {
 					with their elongated pinky-finger nails and pewter cross
 					necklaces, are vivid characters in{" "}
 					<span className="italic">Kolyma Tales</span>. They contrast
-					sharply to the “politicals” convicted under Article 58, who
+					sharply to the "politicals" convicted under Article 58, who
 					start out as essentially moral, though fatally naive to the
 					realities of the camps. Some gangsters are seen to have
 					little fiefdoms, with hapless Article 58's tickling their
@@ -212,12 +194,12 @@ export default function Kolyma() {
 					the walking dead, those who, while still technically
 					breathing, had been starved and frozen past the experience
 					of what anyone could call life. Just waiting for their time.
-					The closest English translation is the clunky “goner.”
+					The closest English translation is the clunky "goner."
 				</div>
 				<div className={paragraphBottomMargin}>
 					The mechanisms of death in Kolyma are somewhat indirect.
 					Shalamov reports that prisoners refer to Kolyma as
-					“Auschwitz without the ovens” and it’s true; there is no
+					"Auschwitz without the ovens" and it's true; there is no
 					organized mass slaughter of prisoners. Instead, an
 					environment is created in which death has a thousand
 					entrances. You could be summarily shot by guards for
@@ -248,44 +230,37 @@ export default function Kolyma() {
 					/>
 				</div>
 				<div className={paragraphBottomMargin}>
-					I was haunted by the story “A Personal Quota”, which relates
+					I was haunted by the story "A Personal Quota", which relates
 					the fate of Dugayev, a 23-year-old university student who
-					has gone “straight from the lecture room to this pit face.”
+					has gone "straight from the lecture room to this pit face."
 					His fellow workers have complained that, unused to the hard
 					labor of gold mining as he is, he does not pull his own
-					weight. He is assigned a “personal quota”-- moved to a
+					weight. He is assigned a "personal quota"-- moved to a
 					special area he works alone, in which his progress is
 					explicitly measured by a guard. The first time I read it, I
-					was naive like Dugayev, until the story’s final paragraph.
+					was naive like Dugayev, until the story's final paragraph.
 					Reading it twice, you see that the cigarette suddenly
-					offered by Dugayev’s bunkmate despite them “not being
-					friends,” the averted glances of other prisoners, and the
-					sudden uncharacteristic reverie of the foreman “to the
-					evening star” are acknowledgments that the personal quota is
+					offered by Dugayev's bunkmate despite them "not being
+					friends," the averted glances of other prisoners, and the
+					sudden uncharacteristic reverie of the foreman "to the
+					evening star" are acknowledgments that the personal quota is
 					a death sentence: an impossible amount of work for a
 					starving and exhausted person to do in a day. The next
 					night, after a brief session with an interrogator in which
 					he gives only his name and the sentence he is currently
 					serving, Dugayev is escorted by soldiers to a ravine some
 					distance from the camp cordoned off by a barbed wire fence
-					from which “at nights you could hear from this point the
-					rumbling of tractors.” Auschwitz without the ovens indeed.
+					from which "at nights you could hear from this point the
+					rumbling of tractors." Auschwitz without the ovens indeed.
 				</div>
 				<div className={paragraphBottomMargin}>
 					If not shot outright for failing to fulfil the norm, perhaps
-					you’d be on the prisoner transport ship{" "}
+					you'd be on the prisoner transport ship{" "}
 					<span className="italic"> Kim</span> and either mutinied
 					with a majority of the prisoners or merely stood by– all the
 					same, the escort guards flooded the hold with freezing water
 					no one could escape.
-					<sup
-						onClick={() => {
-							setNumber(2);
-							setFootnote(true);
-						}}
-					>
-						2
-					</sup>{" "}
+					<FootnoteWrapper text={footnotes[2]} number={2}>2</FootnoteWrapper>
 					But all these deaths, acts of direct murder, were still
 					somewhat exceptional. More plainly, a brutal calculus
 					emerges: sixteen-hour days of mining labor, not enough warm
@@ -308,7 +283,7 @@ export default function Kolyma() {
 					and the guards. Brigades that start the gold-mining season
 					have, by the end of the season, not a single man left alive
 					from the start of the season, except for the foreman and one
-					or two of the foreman’s personal friends."{" "}
+					or two of the foreman's personal friends."{" "}
 					<PullQuoteAttr
 						author="Varlam Shalamov"
 						title="Kolyma Tales"
@@ -360,15 +335,7 @@ export default function Kolyma() {
 					said a word of thanks to Lida. She didn't expect thanks,
 					either. For a favor like that you don't get thanked.
 					Gratitude is not the right word."
-					<sup
-						onClick={() => {
-							setNumber(3);
-							setFootnote(true);
-						}}
-					>
-						{" "}
-						3
-					</sup>
+					<FootnoteWrapper text={footnotes[3]} number={3}>3</FootnoteWrapper>
 					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
 			</BodyText>
