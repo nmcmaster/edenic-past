@@ -1,6 +1,5 @@
-"use client";
+
 import BodyText from "@/app/ui/BodyText";
-import Footnote from "@/app/ui/Footnote";
 import HorizontalDivider from "@/app/ui/HorizontalDivider";
 import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
@@ -33,12 +32,12 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 	}, []);
 	return (
 		<>
-			<Footnote
+			{/* <Footnote
 				isOpen={footnote}
 				text={footnotes[number]}
 				number={number}
 				setIsOpen={setFootnote}
-			/>
+			/> */}
 			<MediaPlayer
 				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=2157112391/transparent=true/"
 				albumHref={albumHrefRedAmarcord}
