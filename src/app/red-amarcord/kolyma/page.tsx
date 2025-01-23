@@ -10,6 +10,13 @@ import {
 	paragraphBottomMargin,
 	pullQuote,
 } from "@/app/utils/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Kolyma",
+	description:
+		"Shalamov never said a word of thanks to Lida. She didn't expect thanks, either. For a favor like that you don't get thanked...",
+};
 
 const footnotes = [
 	"",
@@ -133,7 +140,9 @@ export default function Kolyma() {
 					sympathized with the revolutionaries, particularly the
 					Trotskyist factions, even though, as the son of a priest, he
 					was excluded by the Communists from higher education."
-					<FootnoteWrapper text={footnotes[1]} number={1}>1</FootnoteWrapper>
+					<FootnoteWrapper text={footnotes[1]} number={1}>
+						1
+					</FootnoteWrapper>
 					Running in Trotskyist circles led to his public endorsement
 					of "Lenin's Testament," a document which described Stalin as
 					unfit to be Secretary-General of the Communist Party. In
@@ -260,7 +269,9 @@ export default function Kolyma() {
 					with a majority of the prisoners or merely stood by– all the
 					same, the escort guards flooded the hold with freezing water
 					no one could escape.
-					<FootnoteWrapper text={footnotes[2]} number={2}>2</FootnoteWrapper>
+					<FootnoteWrapper text={footnotes[2]} number={2}>
+						2
+					</FootnoteWrapper>
 					But all these deaths, acts of direct murder, were still
 					somewhat exceptional. More plainly, a brutal calculus
 					emerges: sixteen-hour days of mining labor, not enough warm
@@ -335,7 +346,9 @@ export default function Kolyma() {
 					said a word of thanks to Lida. She didn't expect thanks,
 					either. For a favor like that you don't get thanked.
 					Gratitude is not the right word."
-					<FootnoteWrapper text={footnotes[3]} number={3}>3</FootnoteWrapper>
+					<FootnoteWrapper text={footnotes[3]} number={3}>
+						3
+					</FootnoteWrapper>
 					<Next href="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor" />
 				</div>
 			</BodyText>

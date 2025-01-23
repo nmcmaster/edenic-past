@@ -12,6 +12,13 @@ import {
 	paragraphBottomMargin,
 	pullQuote,
 } from "@/app/utils/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "The Connection Between Bruno Schulz and the Holodomor",
+	description:
+		"Everything is so unclear, so unfathomable. Schulz wrote 'The Cinnamon Shops' during the most terrible year of the Great Famine in Ukraine...",
+};
 
 const footnotes = [
 	"",
@@ -84,7 +91,9 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					where it happened, see something, if only traces. Traces are
 					all he finds in Kolyma, looking for evidence of that great
 					crime. The Dal'stroy{" "}
-					<FootnoteWrapper text={footnotes[1]} number={1}>1</FootnoteWrapper>{" "}
+					<FootnoteWrapper text={footnotes[1]} number={1}>
+						1
+					</FootnoteWrapper>{" "}
 					headquarters, NKVD barracks, the prison where interrogations
 					took place have all been torn down by the time Kapuścińksi
 					visits in the early '90s. The only camp building still
@@ -105,7 +114,9 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					blade of grain, from a kolkhoz. "Similar punishment awaited
 					the tractor driver whose tractor broke down, or the kolkhoz
 					member who lost a hoe or a shovel."
-					<FootnoteWrapper text={footnotes[2]} number={2}>2</FootnoteWrapper>{" "}
+					<FootnoteWrapper text={footnotes[2]} number={2}>
+						2
+					</FootnoteWrapper>{" "}
 					The conditions of starvation were such that even occasional
 					acts of charity, as when groups of dissidents from nearby
 					towns would bring shipments of bread, could mean death. A
@@ -137,7 +148,9 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					teenager, and still do today, that his work is better than
 					most of what came out of the primary French surrealist
 					scene.{" "}
-					<FootnoteWrapper text={footnotes[3]} number={3}>3</FootnoteWrapper>
+					<FootnoteWrapper text={footnotes[3]} number={3}>
+						3
+					</FootnoteWrapper>
 				</div>
 				<div className={paragraphBottomMargin}>
 					Schulz was born in 1892, when Drohobych was part of Poland.
@@ -172,7 +185,9 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 					which was effectively hidden by the USSR at the time.
 					Quoting a typically psychedelically overabundant description
 					of food from the story "August",
-					<FootnoteWrapper text={footnotes[4]} number={4}>4</FootnoteWrapper>
+					<FootnoteWrapper text={footnotes[4]} number={4}>
+						4
+					</FootnoteWrapper>
 					he speculates on some sort of psychic inverse synchronicity:
 					that the suffering of millions starving not that far away
 					could have somehow influenced Schulz to have such

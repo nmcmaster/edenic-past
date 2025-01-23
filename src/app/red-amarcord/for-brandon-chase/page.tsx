@@ -7,6 +7,13 @@ import {
 	albumHrefRedAmarcord,
 	albumTitleRedAmarcord,
 } from "@/app/utils/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "For Brandon Chase",
+	description:
+		"Who is directing these deportations? Lavrentiy Beria, the head of the NKVD in 1939...",
+};
 
 /* eslint-disable react/no-unescaped-entities */
 export default function ForBrandonChase() {

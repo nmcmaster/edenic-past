@@ -12,6 +12,13 @@ import {
 	paragraphBottomMargin,
 	pullQuote,
 } from "@/app/utils/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Beria",
+	description:
+		"Who is directing these deportations? Lavrentiy Beria, the head of the NKVD in 1939...",
+};
 
 const footnotes = [
 	"",
@@ -145,7 +152,9 @@ export default function Beria() {
 						{" "}
 						Beria: The End of the Career
 					</span>{" "}
-					<FootnoteWrapper text={footnotes[1]} number={1}>1</FootnoteWrapper>
+					<FootnoteWrapper text={footnotes[1]} number={1}>
+						1
+					</FootnoteWrapper>
 					. In 1953 Stalin had been dead for four months, and his
 					successor Khrushchev worried that Beria would kill him and
 					seize power himself. So he assembled a posse which cornered
