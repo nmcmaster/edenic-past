@@ -1,6 +1,7 @@
 import BodyText from "@/app/ui/BodyText";
 import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
+import Title from "@/app/ui/Title";
 import {
 	albumHrefRedAmarcord,
 	albumTitleRedAmarcord,
@@ -16,6 +17,7 @@ export default function Politkovskaya() {
 				albumHref={albumHrefRedAmarcord}
 				albumTitle={albumTitleRedAmarcord}
 			/>
+			<Title title="Politkovskaya" />	
 			<Nav
 				hrefBackward="/red-amarcord/litvinenko"
 				hrefForward="/red-amarcord/molotok"

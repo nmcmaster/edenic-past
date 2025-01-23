@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import MediaPlayer from "@/app/ui/MediaPlayer";
 /* eslint-disable react/no-unescaped-entities */
 export const metadata: Metadata = {
-	title: "Edenic Past - Chuck Schuldiner",
+	title: "Chuck Schuldiner",
 	description:
 		"But a dark streak runs through Schuldiner’s history. The documentary 'Death by Metal' catalogs several instances of tours abruptly cancelled, managers and bandmates suddenly fired...",
 };
