@@ -7,7 +7,6 @@ import {
 	albumTitleRedAmarcord,
 	pullQuote,
 } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Katyn() {

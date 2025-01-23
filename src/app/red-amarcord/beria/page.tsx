@@ -1,3 +1,4 @@
+"use client";
 import BodyText from "@/app/ui/BodyText";
 import Footnote from "@/app/ui/Footnote";
 import HorizontalDivider from "@/app/ui/HorizontalDivider";
@@ -22,18 +23,9 @@ const footnotes = [
 export default function Beria() {
 	const [footnote, setFootnote] = useState(false);
 	const [number, setNumber] = useState(0);
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
+	
 	return (
 		<>
-			<Footnote
-				isOpen={footnote}
-				text={footnotes[number]}
-				number={number}
-				setIsOpen={setFootnote}
-			/>
 			<MediaPlayer
 				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=3468900866/transparent=true/"
 				albumHref={albumHrefRedAmarcord}
@@ -47,6 +39,12 @@ export default function Beria() {
 				textForward="Kolyma"
 			/>
 			<BodyText>
+				<Footnote
+					isOpen={footnote}
+					text={footnotes[number]}
+					number={number}
+					setIsOpen={setFootnote}
+				/>
 				<p className={paragraphBottomMargin}>
 					It is May 2020 and I am reading about Beria. I am reading
 					Ryszard Kapuściński’s{" "}

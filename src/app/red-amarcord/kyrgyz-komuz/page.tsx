@@ -1,4 +1,4 @@
-"use client";
+
 import BodyText from "@/app/ui/BodyText";
 import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
@@ -6,18 +6,11 @@ import Title from "@/app/ui/Title";
 import {
 	albumHrefRedAmarcord,
 	albumTitleRedAmarcord,
-	iframeStyle,
-	playerCss,
-	playerHeight,
+	
 } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function KyrgyzKomuz() {
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
 	return (
 		<>
 			<MediaPlayer

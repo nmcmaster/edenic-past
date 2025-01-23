@@ -5,7 +5,7 @@ import {
 	albumHrefRedAmarcord,
 	albumTitleRedAmarcord,
 } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
+
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Politkovskaya() {
