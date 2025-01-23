@@ -1,15 +1,13 @@
-"use client";
 import BodyText from "@/app/ui/BodyText";
 import Nav from "@/app/ui/Nav";
 import Title from "@/app/ui/Title";
 import {
-	iframeStyle,
+	albumHrefRedAmarcord,
+	albumTitleRedAmarcord,
 	paragraphBottomMargin,
-	playerCss,
-	playerHeight,
 } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
 import type { Metadata } from "next";
+import MediaPlayer from "@/app/ui/MediaPlayer";
 /* eslint-disable react/no-unescaped-entities */
 export const metadata: Metadata = {
 	title: "Edenic Past - Chuck Schuldiner",
@@ -18,26 +16,13 @@ export const metadata: Metadata = {
 };
 
 export default function ChuckSchuldiner() {
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
 	return (
 		<>
-			<div style={playerHeight}>
-				{isMounted && (
-					<iframe
-						style={iframeStyle}
-						className={playerCss}
-						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=4164927008/transparent=true/"
-						seamless
-					>
-						<a href="https://edenicpast.bandcamp.com/album/red-amarcord">
-							Red Amarcord by Edenic Past
-						</a>
-					</iframe>
-				)}
-			</div>
+			<MediaPlayer
+				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=4164927008/transparent=true/"
+				albumHref={albumHrefRedAmarcord}
+				albumTitle={albumTitleRedAmarcord}
+			/>
 			<Title title="Chuck Schuldiner" />
 			<Nav
 				hrefBackward="/red-amarcord/the-connection-between-bruno-schulz-and-the-holodomor"

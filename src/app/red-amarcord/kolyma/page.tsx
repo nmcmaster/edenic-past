@@ -1,15 +1,14 @@
 "use client";
 import BodyText from "@/app/ui/BodyText";
 import Footnote from "@/app/ui/Footnote";
+import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
-import PullQuoteAttr, { PullQuoteAuthor } from "@/app/ui/PullQuoteAttr";
+import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import Title from "@/app/ui/Title";
 import {
-	iframeStyle,
+	albumHrefRedAmarcord,
 	paragraphBottomMargin,
-	playerCss,
-	playerHeight,
 	pullQuote,
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
@@ -23,12 +22,9 @@ const footnotes = [
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Kolyma() {
-	const [footnote, setFootnote] = useState(false);
+	const [footnote, setFootnote] = useState(false); // break into component
 	const [number, setNumber] = useState(0);
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
+	
 	return (
 		<>
 			<Footnote
@@ -37,20 +33,11 @@ export default function Kolyma() {
 				number={number}
 				setIsOpen={setFootnote}
 			/>
-			<div style={playerHeight}>
-				{isMounted && (
-					<iframe
-						style={iframeStyle}
-						className={playerCss}
-						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=1630471468/transparent=true/"
-						seamless
-					>
-						<a href="https://edenicpast.bandcamp.com/album/red-amarcord">
-							Red Amarcord by Edenic Past
-						</a>
-					</iframe>
-				)}
-			</div>
+			<MediaPlayer
+				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=1630471468/transparent=true/"
+				albumHref={albumHrefRedAmarcord}
+				albumTitle={albumHrefRedAmarcord}
+			/>
 			<Title title="Kolyma" />
 			<Nav
 				hrefBackward="/red-amarcord/beria"

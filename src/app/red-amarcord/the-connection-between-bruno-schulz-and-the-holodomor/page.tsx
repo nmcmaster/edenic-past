@@ -2,15 +2,15 @@
 import BodyText from "@/app/ui/BodyText";
 import Footnote from "@/app/ui/Footnote";
 import HorizontalDivider from "@/app/ui/HorizontalDivider";
+import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
 import Next from "@/app/ui/Next";
 import PullQuoteAttr from "@/app/ui/PullQuoteAttr";
 import Title from "@/app/ui/Title";
 import {
-	iframeStyle,
+	albumHrefRedAmarcord,
+	albumTitleRedAmarcord,
 	paragraphBottomMargin,
-	playerCss,
-	playerHeight,
 	pullQuote,
 } from "@/app/utils/constants";
 import { useEffect, useState } from "react";
@@ -39,20 +39,11 @@ export default function TheConnectionBetweenBrunoSchulzAndTheHolodomor() {
 				number={number}
 				setIsOpen={setFootnote}
 			/>
-			<div style={playerHeight}>
-				{isMounted && (
-					<iframe
-						style={iframeStyle}
-						className={playerCss}
-						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=2157112391/transparent=true/"
-						seamless
-					>
-						<a href="https://edenicpast.bandcamp.com/album/red-amarcord">
-							Red Amarcord by Edenic Past
-						</a>
-					</iframe>
-				)}
-			</div>
+			<MediaPlayer
+				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=2157112391/transparent=true/"
+				albumHref={albumHrefRedAmarcord}
+				albumTitle={albumTitleRedAmarcord}
+			/>
 			<Title title="The Connection Between Bruno Schulz and the Holodomor" />
 			<Nav
 				hrefBackward="/red-amarcord/kolyma"

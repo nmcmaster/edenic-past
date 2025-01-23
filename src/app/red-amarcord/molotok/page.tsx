@@ -1,31 +1,22 @@
-"use client";
 import BodyText from "@/app/ui/BodyText";
+import MediaPlayer from "@/app/ui/MediaPlayer";
 import Nav from "@/app/ui/Nav";
-import { iframeStyle, playerCss, playerHeight } from "@/app/utils/constants";
-import { useEffect, useState } from "react";
+import Title from "@/app/ui/Title";
+import {
+	albumHrefRedAmarcord,
+	albumTitleRedAmarcord,
+} from "@/app/utils/constants";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Molotok() {
-	const [isMounted, setIsMounted] = useState(false);
-	useEffect(() => {
-		setIsMounted(true);
-	}, []);
 	return (
 		<>
-			<div style={playerHeight}>
-				{isMounted && (
-					<iframe
-						style={iframeStyle}
-						className={playerCss}
-						src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=2182646226/transparent=true/"
-						seamless
-					>
-						<a href="https://edenicpast.bandcamp.com/album/red-amarcord">
-							Red Amarcord by Edenic Past
-						</a>
-					</iframe>
-				)}
-			</div>
+			<MediaPlayer
+				src="https://bandcamp.com/EmbeddedPlayer/album=1841737863/size=small/bgcol=ffffff/linkcol=0687f5/track=2182646226/transparent=true/"
+				albumHref={albumHrefRedAmarcord}
+				albumTitle={albumTitleRedAmarcord}
+			/>
+			<Title title="Molotok" />
 			<Nav
 				hrefBackward="/red-amarcord/politkovskaya"
 				hrefForward="/red-amarcord/katyn"
