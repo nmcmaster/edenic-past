@@ -14,14 +14,14 @@ export default function Discography() {
 				>
 					<Image
 						src="/two-song-promo.jpg"
-						className="hidden sm:block shadow-sm"
+						className="hidden sm:block shadow-xs"
 						width={1000}
 						height={1000}
 						alt="Edenic Past two song promo cover"
 					/>
 					<Image
 						src="/two-song-promo.jpg"
-						className="block sm:hidden shadow-sm"
+						className="block sm:hidden shadow-xs"
 						width={400}
 						height={400}
 						alt="Edenic Past two song promo cover"
@@ -30,14 +30,14 @@ export default function Discography() {
 				<AlbumSquare title="Red Amarcord" href="red-amarcord/for-brandon-chase">
 					<Image
 						src="/red-amarcord-square.png"
-						className="hidden sm:block shadow-sm"
+						className="hidden sm:block shadow-xs"
 						width={1000}
 						height={1000}
 						alt="Red Amarcord Cover"
 					/>
 					<Image
 						src="/red-amarcord-square.png"
-						className="block sm:hidden shadow-sm"
+						className="block sm:hidden shadow-xs"
 						width={400}
 						height={400}
 						alt="Red Amarcord Cover"
